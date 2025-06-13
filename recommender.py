@@ -46,7 +46,7 @@ def recommend_fragrances(fragrance_list, filters, min_match_threshold=5):
     for frag in fragrance_list:
         score = 0
 
-        # Check each filter and increment score if matched
+        
         if 'type' in filters and filters['type'] == frag.get('type', '').lower():
             score += 1
         if 'gender' in filters and filters['gender'] == frag.get('gender', '').lower():
@@ -75,21 +75,35 @@ def recommend_fragrances(fragrance_list, filters, min_match_threshold=5):
         if score >= min_match_threshold:
             scored_matches.append((score, frag))
 
-    # Sort matches by score (best match first), then return top 3
+    
     scored_matches.sort(reverse=True, key=lambda x: x[0])
     top_matches = [f for _, f in scored_matches[:3]]
 
-    return top_matches
+    review_message = {
+        "message": "Check out the website below for in-depth reviews on these fragrances!",
+        "link": "https://www.fragrantica.com"
+    }
+
+    return top_matches, review_message
+
 
 
 def main():
     filters = ask_user_preferences()
-    results = recommend_fragrances(filters)
+    results, review_message = recommend_fragrances(fragrance_list, filters)
 
     if results:
         print("\nRecommended Fragrances:")
         for frag in results:
             print("-", frag)
+
+        print("\n" + review_message["message"])
+        print(review_message["link"])
+
+
+
+
+
 
 if __name__ == "__main__":
     main()

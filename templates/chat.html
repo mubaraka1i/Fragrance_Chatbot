@@ -192,27 +192,34 @@
     }
 
     async function sendMessageToBot(message) {
-      showTyping();
-      await new Promise(resolve => setTimeout(resolve, 1000)); // Simulated thinking delay
+  showTyping();
+  await new Promise(resolve => setTimeout(resolve, 1000)); 
 
-      const res = await fetch("/chat", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message })
-      });
+  try {
+    const res = await fetch("/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message })
+    });
 
-      const data = await res.json();
-      removeTyping();
+    const data = await res.json();
+    removeTyping();
 
-      if (Array.isArray(data.reply)) {
-        for (const msg of data.reply) {
-          await new Promise(resolve => setTimeout(resolve, 300));
-          addBotMsg(msg);
-        }
-      } else {
-        addBotMsg(data.reply);
+    if (Array.isArray(data.reply)) {
+      for (const msg of data.reply) {
+        await new Promise(resolve => setTimeout(resolve, 300));
+        addBotMsg(msg);
       }
+    } else {
+      addBotMsg(data.reply);
     }
+  } catch (error) {
+    removeTyping();
+    addBotMsg("Sorry, the server is currently unavailable. Please try again later.");
+    console.error("Fetch error:", error);
+  }
+}
+
 
     chatForm.addEventListener("submit", function (e) {
       e.preventDefault();

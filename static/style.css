@@ -83,10 +83,10 @@ body {
     border-bottom-left-radius: 4px;
 }
 a {
-    color: #8cd3ff; /* Light blue to pop on dark background */
+    color: #8cd3ff; 
     text-decoration: underline;
 }
 
 a:hover {
-    color: #ffcc00; /* Optional hover color (gold/yellow) */
+    color: #ffcc00; 
 }

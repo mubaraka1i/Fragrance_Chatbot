@@ -1,62 +1,102 @@
-# Updated Fragrance class with proper filtering and error handling
 class Fragrance:
-    def __init__(self, name, link, notes, price, events, strength, adjectives, gender):
-        self.name = name
-        self.link = link
+    def __init__(self, name, link, notes, price, events, strength, gender, type_):
+        self.name = str(name).strip() if name else "Unknown"
+        self.link = str(link).strip() if link else ""
+
         try:
-            self.price = float(price) if price else 0
+            self.price = float(price) if price is not None else 0
+            if self.price < 0:
+                self.price = 0
         except (ValueError, TypeError):
             self.price = 0
-        
-        self.notes = [n.lower().strip() for n in notes] if notes else []
-        self.events = [e.lower().strip() for e in events] if events else []
-        self.strength = strength.lower().strip() if strength else ""
-        self.adjectives = [a.lower().strip() for a in adjectives] if adjectives else []
-        self.gender = gender.lower().strip() if gender else ""
-    
+
+        self.notes = self._safe_string_list(notes)
+        self.events = self._safe_string_list(events)
+        self.type = self._safe_string_list(type_)
+        self.strength = str(strength).lower().strip() if strength else ""
+        self.gender = str(gender).lower().strip() if gender else "unisex"
+
+    def _safe_string_list(self, items):
+        if not items:
+            return []
+        result = []
+        for item in items:
+            if item is not None:
+                try:
+                    result.append(str(item).lower().strip())
+                except:
+                    continue
+        return result
+
     def matches(self, filters):
-        # Gender filter - handle unisex fragrances properly
         if filters.get("gender") and filters["gender"] != "any":
             if self.gender != filters["gender"] and self.gender != "unisex":
                 return False
-        
-        # Price filter - fixed ranges to match Flask app definitions
-        if filters.get("price") and filters["price"] != "any":
-            if filters["price"] == "low" and (self.price < 10 or self.price > 50):
+
+        if filters.get("min_price") is not None:
+            if self.price < filters["min_price"]:
                 return False
-            elif filters["price"] == "medium" and (self.price < 51 or self.price > 100):
+
+        if filters.get("max_price") is not None:
+            if self.price > filters["max_price"]:
                 return False
-            elif filters["price"] == "high" and (self.price < 101 or self.price > 199):
+
+        event_synonyms = {
+            "office": ["work", "business", "formal", "professional", "daily"],
+            "night out": ["party", "clubbing", "evening", "bar"],
+            "school": ["class", "university", "college"],
+            "gym": ["fitness", "exercise", "training"],
+        }
+
+        event_key = filters.get("event") or filters.get("occasion")
+        if event_key and event_key != "any":
+            event_key = event_key.lower().strip()
+            allowed_events = [event_key] + event_synonyms.get(event_key, [])
+            if not any(e in self.events for e in allowed_events):
                 return False
-            elif filters["price"] == "expensive" and self.price < 200:
-                return False
-        
-        # Event filter
-        if filters.get("event") and filters["event"] != "any":
-            if filters["event"] not in self.events:
-                return False
-        
-        # Strength filter
+
         if filters.get("strength") and filters["strength"] != "any":
             if self.strength != filters["strength"]:
                 return False
-        
-        # Notes filter - normalize case for comparison
-        if filters.get("notes"):
-            filter_notes = [note.lower().strip() for note in filters["notes"] if note.strip()]
-            if filter_notes and not any(note in self.notes for note in filter_notes):
+
+        note_synonyms = {
+            "citrus": ["lime", "orange", "bergamot", "mandarin", "lemon", "grapefruit", "calabrian bergamot", "blood orange"],
+            "vanilla": ["bourbon vanilla", "madagascar vanilla"],
+            "oud": ["agarwood"],
+            "tea": ["green tea", "matcha"],
+            "amber": ["ambergris"],
+            "leather": ["suede"],
+        }
+
+        note_filter = filters.get("note")
+        if note_filter:
+            if isinstance(note_filter, str):
+                note_filter = [note_filter]
+            filter_notes = [note.lower().strip() for note in note_filter if note and str(note).strip()]
+
+            expanded_notes = []
+            for note in filter_notes:
+                expanded_notes.append(note)
+                expanded_notes.extend(note_synonyms.get(note, []))
+
+            fragrance_notes = [note.lower().strip() for note in self.notes]
+            if expanded_notes and not any(n in fragrance_notes for n in expanded_notes):
                 return False
-        
-        # Adjectives filter - normalize case for comparison
-        if filters.get("adjectives"):
-            filter_adjectives = [adj.lower().strip() for adj in filters["adjectives"] if adj.strip()]
-            if filter_adjectives and not any(adj in self.adjectives for adj in filter_adjectives):
+
+        type_filter = filters.get("type")
+        if type_filter:
+            if isinstance(type_filter, str):
+                type_filter = [type_filter]
+            filter_types = [t.lower().strip() for t in type_filter if t and str(t).strip()]
+            fragrance_types = [t.lower().strip() for t in self.type]
+            if filter_types and not any(t in fragrance_types for t in filter_types):
                 return False
-        
+
         return True
-    
+
     def __str__(self):
         return f"{self.name} (${self.price})"
-    
+
     def __repr__(self):
         return f"Fragrance(name='{self.name}', price={self.price}, gender='{self.gender}')"
+

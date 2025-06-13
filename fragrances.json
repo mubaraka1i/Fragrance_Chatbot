@@ -48,6 +48,8 @@
         "woody"
     ]
 },
+
+
 {
     "name": "Bond No. 9 New York Nights",
     "link": "https://www.fragrancenet.com/fragrances/bond-no-9/new-york-nights",
@@ -68,35 +70,11 @@
         "elegant"
     ],
     "type": [
-        "floral",
         "gourmand",
         "cozy"
     ]
 },
-{
-    "name": "Xerjoff Naxos",
-    "link": "https://www.fragrancenet.com/fragrances/xerjoff/naxos",
-    "gender": "unisex",
-    "price": 350,
-    "events": [
-        "special occasion",
-        "romantic"
-    ],
-    "strength": "strong",
-    "notes": [
-        "citrus",
-        "amber"
-    ],
-    "adjectives": [
-        "cozy",
-        "elegant",
-        "dark"
-    ],
-    "type": [
-        "sweet",
-        "smoky"
-    ]
-},
+
 {
     "name": "Mancera Cedrat Boise",
     "link": "https://www.fragrancenet.com/fragrances/mancera/cedrat-boise",
@@ -310,6 +288,17 @@
         "sweet",
         "floral"
     ]
+},
+{
+  "name": "Abercrombie & Fitch Fierce",
+  "link": "https://www.abercrombie.com",
+  "notes": ["citrus", "woody"],
+  "price": 90,
+  "events": ["cold weather"],
+  "strength": "strong",
+  "adjectives": ["fresh", "herbal"],
+  "gender": "masculine",
+  "type": ["fresh", "woody"]
 },
 {
     "name": "Goldfield & Banks Silky Woods",
@@ -641,6 +630,17 @@
 ]
 },
 {
+  "name": "Louis Vuitton Afternoon Swim",
+  "link": "https://us.louisvuitton.com/eng-us/products/afternoon-swim-nvprod1550008v",
+  "notes": ["orange", "bergamot", "mandarin", "ginger", "ambergris"],
+  "price": 310,
+  "events": ["daily", "warm weather", "office"],
+  "strength": "strong",
+  "type": ["citrusy", "fresh", "aquatic", "clean", "airy"],
+  "gender": "masculine"
+},
+
+{
 "name": "Louis Vuitton Ombre Nomade",
 "link": "https://www.fragrancenet.com/fragrances/louis-vuitton/ombre-nomade",
 "gender": "unisex",
@@ -735,6 +735,39 @@
 "fresh"
 ]
 },
+
+  {
+    "name": "Gucci Flora Gorgeous Gardenia Eau de Parfum",
+    "link": "https://www.gucci.com/us/en/pr/beauty/fragrances/womens-fragrances/flora-by-gucci/gorgeous-gardenia-eau-de-parfum-100ml-p-641154999990099",
+    "notes": ["pear blossom", "jasmine", "gardenia", "brown sugar", "patchouli"],
+    "price": 138,
+    "events": ["daily", "romantic", "special occasion"],
+    "strength": "light",
+    "adjectives": ["floral", "sweet", "fruity", "youthful", "feminine"],
+    "gender": "feminine"
+  },
+  {
+    "name": "Gucci Flora Gorgeous Magnolia Eau de Parfum",
+    "link": "https://www.gucci.com/us/en/pr/beauty/fragrances/womens-fragrances/flora-by-gucci/gorgeous-magnolia-eau-de-parfum-100ml-p-728416999990099",
+    "notes": ["magnolia", "dewberries", "patchouli", "musk", "coconut"],
+    "price": 138,
+    "events": ["daily", "special occasion", "romantic"],
+    "strength": "light",
+    "adjectives": ["floral", "sweet", "fruity", "warm", "feminine"],
+    "gender": "feminine"
+  },
+  {
+    "name": "Gucci Flora Gorgeous Jasmine Eau de Parfum",
+    "link": "https://www.gucci.com/us/en/pr/beauty/fragrances/womens-fragrances/flora-by-gucci/gorgeous-jasmine-eau-de-parfum-100ml-p-728417999990099",
+    "notes": ["jasmine", "mandarin", "magnolia", "sandalwood", "benzoin"],
+    "price": 138,
+    "events": ["daily", "romantic", "special occasion"],
+    "strength": "strong",
+    "adjectives": ["floral", "fresh", "sweet", "feminine", "youthful"],
+    "gender": "feminine"
+  }
+,
+
 {
 "name": "Tommy Hilfiger Tommy",
 "link": "https://www.fragrancenet.com/fragrances/tommy-hilfiger/tommy",
@@ -874,6 +907,55 @@
 "fruity"
 ]
 },
+
+
+  
+  {
+    "name": "Chanel Allure Homme Édition Blanche",
+    "link": "https://www.chanel.com/us/fragrance/p/123460/allure-homme-edition-blanche-eau-de-parfum/",
+    "gender": "masculine",
+    "price": 150,
+    "events": ["warm weather", "special occasion"],
+    "strength": "light",
+    "notes": ["lemon", "bergamot", "sandalwood", "tonka bean"],
+    "adjectives": ["elegant", "fresh", "fruity"],
+    "type": ["fruity"]
+  },
+  {
+    "name": "Versace Pour Homme Dylan Blue",
+    "link": "https://www.versace.com/us/en-us/men/dylan-blue-pour-homme-eau-de-toilette-8011003825759.html",
+    "gender": "masculine",
+    "price": 105,
+    "events": ["warm weather", "daily"],
+    "strength": "strong",
+    "notes": ["bergamot", "grapefruit", "fig leaves"],
+    "adjectives": ["bold", "vibrant", "fruity"],
+    "type": ["fruity"]
+  },
+  {
+    "name": "Dolce & Gabbana Light Blue Italian Love",
+    "link": "https://www.dolcegabbana.com/fragrances/light-blue-italian-love-pour-homme-eau-de-toilette/",
+    "gender": "masculine",
+    "price": 120,
+    "events": ["warm weather", "daily", "special occasion"],
+    "strength": "light",
+    "notes": ["grapefruit", "bergamot", "ozonic notes"],
+    "adjectives": ["airy", "fresh", "fruity"],
+    "type": ["fruity"]
+  },
+  {
+    "name": "Mancera Soleil d’Italie",
+    "link": "https://www.manceraparfums.com/en/products/soleil-d-italie",
+    "gender": "masculine",
+    "price": 170,
+    "events": ["warm weather", "special occasion"],
+    "strength": "strong",
+    "notes": ["lime", "mandarin", "grapefruit", "pink pepper"],
+    "adjectives": ["bright", "vibrant", "fruity"],
+    "type": ["fruity"]
+  }
+,
+
 {
 "name": "Acqua di Gio Profumo",
 "link": "https://www.fragrancenet.com/fragrances/giorgio-armani/acqua-di-gio-profumo",
@@ -1407,29 +1489,6 @@
 ]
 },
 {
-"name": "Al-Rehab Choco Musk",
-"link": "https://www.amazon.com/Al-Rehab-Choco-Musk-50ml/dp/B07KMNQPYZ",
-"notes": [
-"musk",
-"vanilla"
-],
-"price": 15,
-"events": [
-"daily",
-"romantic"
-],
-"strength": "light",
-"adjectives": [
-"cozy",
-"airy",
-"clean"
-],
-"gender": "unisex",
-"type": [
-"gourmand"
-]
-},
-{
 "name": "Parfums de Marly Pegasus",
 "link": "https://www.fragrancenet.com/fragrances/parfums-de-marly/pegasus",
 "notes": [
@@ -1750,25 +1809,18 @@
 ]
 },
 {
-"name": "Diptyque Tam Dao",
-"link": "https://www.fragrancenet.com/fragrances/diptyque/tam-dao",
-"notes": [],
-"price": 140,
-"events": [
-"daily",
-"office"
-],
-"strength": "light",
-"adjectives": [
-"clean",
-"elegant",
-"airy"
-],
-"gender": "unisex",
-"type": [
-"woody"
-]
+  "name": "Diptyque Tam Dao",
+  "link": "https://www.fragrancenet.com/fragrances/diptyque/tam-dao",
+  "notes": ["tea", "amber"],
+  "price": 140,
+  "events": ["daily", "office"],
+  "strength": "light",
+  "adjectives": ["clean", "elegant", "airy"],
+  "gender": "unisex",
+  "type": ["woody"]
 },
+
+
 {
 "name": "Initio Parfums Privés Atomic Rose",
 "link": "https://www.fragrancenet.com/fragrances/initio/atomic-rose",
@@ -1888,7 +1940,7 @@
 "notes": [
 "citrus"
 ],
-"price": 200,
+"price": 240,
 "events": [
 "daily",
 "office"
@@ -2018,26 +2070,40 @@
 "gourmand"
 ]
 },
-{
-"name": "Jean Paul Gaultier Scandal",
-"link": "https://www.fragrancenet.com/fragrances/jean-paul-gaultier/scandal",
-"notes": [],
-"price": 110,
-"events": [
-"romantic",
-"night out"
-],
-"strength": "strong",
-"adjectives": [
-"bold",
-"cozy",
-"elegant"
-],
-"gender": "feminine",
-"type": [
-"floral"
-]
-},
+
+
+  {
+    "name": "Louis Vuitton L’Immensité",
+    "link": "https://us.louisvuitton.com/eng-us/products/limmensite-nvprod1170026v",
+    "notes": ["grapefruit", "ginger", "amber", "labdanum", "grapefruit peel"],
+    "price": 310,
+    "events": ["daily", "office", "warm weather", "special occasion"],
+    "strength": "strong",
+    "type": ["fresh", "aquatic", "spicy", "clean", "airy"],
+    "gender": "masculine"
+  },
+  {
+    "name": "Louis Vuitton Imagination",
+    "link": "https://us.louisvuitton.com/eng-us/products/imagination-nvprod2800083v",
+    "notes": ["citrus", "ginger", "neroli", "cedarwood", "tea", "ambroxan"],
+    "price": 310,
+    "events": ["daily", "special occasion", "warm weather", "office"],
+    "strength": "strong",
+    "type": ["citrusy", "fresh", "clean", "youthful", "airy"],
+    "gender": "masculine"
+  },
+  {
+    "name": "Louis Vuitton Symphony",
+    "link": "https://us.louisvuitton.com/eng-us/products/symphony-nvprod3320138v",
+    "notes": ["bergamot", "grapefruit", "ginger", "orange blossom"],
+    "price": 410,
+    "events": ["daily", "warm weather", "office", "special occasion"],
+    "strength": "strong",
+    "type": ["citrusy", "fresh", "clean", "airy", "luxurious"],
+    "gender": "masculine"
+  }
+,
+
 {
 "name": "Louis Vuitton California Dream",
 "link": "https://www.fragrancenet.com/fragrances/louis-vuitton/california-dream",
@@ -2059,7 +2125,7 @@
 ],
 "gender": "unisex",
 "type": [
-"aquatic"
+"aquatic", "youthful"
 ]
 },
 {
@@ -2174,29 +2240,7 @@
 "herbal"
 ]
 },
-{
-"name": "Azzaro Chrome",
-"link": "https://www.fragrancenet.com/fragrances/azzaro/chrome",
-"notes": [
-"citrus",
-"musk"
-],
-"price": 35,
-"events": [
-"daily",
-"gym"
-],
-"strength": "light",
-"adjectives": [
-"airy",
-"clean",
-"youthful"
-],
-"gender": "masculine",
-"type": [
-"aquatic"
-]
-},
+
 {
 "name": "Jimmy Choo Man Blue",
 "link": "https://www.fragrancenet.com/fragrances/jimmy-choo/man-blue",
@@ -2244,25 +2288,18 @@
 ]
 },
 {
-"name": "Marc Jacobs Perfect",
-"link": "https://www.fragrancenet.com/fragrances/marc-jacobs/perfect",
-"notes": [],
-"price": 100,
-"events": [
-"daily",
-"office"
-],
-"strength": "light",
-"adjectives": [
-"airy",
-"clean",
-"elegant"
-],
-"gender": "feminine",
-"type": [
-"fresh"
-]
+  "name": "Marc Jacobs Perfect",
+  "link": "https://www.fragrancenet.com/fragrances/marc-jacobs/perfect",
+  "notes": ["vanilla", "musk"],
+  "price": 100,
+  "events": ["daily", "office"],
+  "strength": "light",
+  "adjectives": ["airy", "clean", "elegant"],
+  "gender": "feminine",
+  "type": ["floral"]
 },
+
+
 {
 "name": "Giorgio Armani Code",
 "link": "https://www.fragrancenet.com/fragrances/giorgio-armani/armani-code",
@@ -2285,27 +2322,7 @@
 "woody"
 ]
 },
-{
-"name": "Bvlgari Omnia Crystalline",
-"link": "https://www.fragrancenet.com/fragrances/bvlgari/omnia-crystalline",
-"notes": [
-"citrus"
-],
-"price": 85,
-"events": [
-"daily",
-"office"
-],
-"strength": "light",
-"adjectives": [
-"clean",
-"airy"
-],
-"gender": "feminine",
-"type": [
-"fresh"
-]
-},
+
 
 {
 "name": "Mugler Angel",
@@ -2419,60 +2436,55 @@
 ]
 },
 {
-    "name": "Le Monde Gourmand Lait de Coco",
-    "link": "https://www.fragrantica.com/perfume/Le-Monde-Gourmand/Lait-de-Coco-63122.html",
-    "notes": ["coconut"],
-    "price": 85,
-    "events": ["daily", "summer"],
-    "strength": "strong",
-    "adjectives": ["dense", "powdery"],
-    "gender": "unisex",
-    "type": ["gourmand"]
-  },
-  {
-    "name": "Maison Margiela Replica Bubble Bath",
-    "link": "https://www.sephora.com/product/replica-bubble-bath-EDT-P453122",
-    "notes": ["coconut", "white musk", "rose"],
-    "price": 165,
-    "events": ["daily", "relaxing"],
-    "strength": "strong",
-    "adjectives": ["soapy", "watery"],
-    "gender": "unisex",
-    "type": ["fresh"]
-  },
-  {
-    "name": "Phlur Coconut Skin",
-    "link": "https://aromaauthority.com/fragrance/note/best-coconut-perfumes",
-    "notes": ["coconut"],
-    "price": 98,
-    "events": ["daily", "casual"],
-    "strength": "strong",
-    "adjectives": ["green", "watery"],
-    "gender": "unisex",
-    "type": ["fresh"]
-  },
-  {
-    "name": "Tom Ford Soleil Blanc",
-    "link": "https://www.tomford.com/beauty/fragrance/soleil-blanc/",
-    "notes": ["coconut", "bergamot", "tuberose"],
-    "price": 295,
-    "events": ["vacation", "evening"],
-    "strength": "strong",
-    "adjectives": ["spicy", "smooth"],
-    "gender": "unisex",
-    "type": ["oriental"]
-  },
-  {
-    "name": "Guerlain Terracotta Le Parfum",
-    "link": "https://www.beautypert.com/best-coconut-perfume",
-    "notes": ["coconut", "amber", "tiaré"],
-    "price": 130,
-    "events": ["summer", "beach"],
-    "strength": "strong",
-    "adjectives": ["animalic", "earthy"],
-    "gender": "feminine",
-    "type": ["oriental"]
-  },
+  "name": "Le Monde Gourmand Lait de Coco",
+  "link": "https://www.fragrantica.com/perfume/Le-Monde-Gourmand/Lait-de-Coco-63122.html",
+  "notes": ["vanilla", "amber"],
+  "price": 85,
+  "events": ["daily", "special occasion"],
+  "strength": "strong",
+  "adjectives": ["cozy", "airy", "vibrant"],
+  "gender": "unisex",
+  "type": ["gourmand"]
+},
+
+  
+
+{
+  "name": "Phlur Coconut Skin",
+  "link": "https://aromaauthority.com/fragrance/note/best-coconut-perfumes",
+  "notes": ["vanilla", "amber"],
+  "price": 98,
+  "events": ["daily", "romantic"],
+  "strength": "strong",
+  "adjectives": ["airy", "clean", "vibrant"],
+  "gender": "unisex",
+  "type": ["fresh"]
+},
+
+{
+  "name": "Tom Ford Soleil Blanc",
+  "link": "https://www.tomford.com/beauty/fragrance/soleil-blanc/",
+  "notes": ["amber", "vanilla"],
+  "price": 295,
+  "events": ["special occasion", "romantic"],
+  "strength": "strong",
+  "adjectives": ["elegant", "cozy", "vibrant"],
+  "gender": "unisex",
+  "type": ["gourmand"]
+},
+
+{
+  "name": "Guerlain Terracotta Le Parfum",
+  "link": "https://www.beautypert.com/best-coconut-perfume",
+  "notes": ["vanilla", "amber"],
+  "price": 130,
+  "events": ["warm weather", "romantic"],
+  "strength": "strong",
+  "adjectives": ["cozy", "airy", "vibrant"],
+  "gender": "feminine",
+  "type": ["gourmand"]
+},
+
 
 {
 "name": "Maison Alhambra Jean Lowe",
@@ -2486,13 +2498,9 @@
 "office"
 ],
 "strength": "light",
-"adjectives": [
-"clean",
-"elegant"
-],
-"gender": "masculine",
 "type": [
-"fresh"
+"clean",
+"elegant", "fresh"
 ]
 },
 
@@ -2509,15 +2517,12 @@
 "romantic"
 ],
 "strength": "strong",
-"adjectives": [
+"type": [
 "bold",
 "dark",
 "elegant"
 ],
-"gender": "unisex",
-"type": [
-"woody"
-]
+"gender": "unisex"
 },
 {
 "name": "Fragrance World Seductive Red",
@@ -2531,15 +2536,12 @@
 "night out"
 ],
 "strength": "strong",
-"adjectives": [
+"type": [
 "cozy",
 "bold",
-"elegant"
+"elegant","gourmand"
 ],
-"gender": "feminine",
-"type": [
-"gourmand"
-]
+"gender": "feminine"
 },
 
 {
@@ -2555,15 +2557,12 @@
 "romantic"
 ],
 "strength": "strong",
-"adjectives": [
+"type": [
 "bold",
 "dark",
 "elegant"
 ],
-"gender": "unisex",
-"type": [
-"woody"
-]
+"gender": "unisex"
 },
 
 {
@@ -2580,12 +2579,9 @@
 "strength": "strong",
 "adjectives": [
 "clean",
-"elegant"
+"elegant", "woody"
 ],
-"gender": "masculine",
-"type": [
-"woody"
-]
+"gender": "masculine"
 },
 
 {
@@ -2601,14 +2597,11 @@
 "gym"
 ],
 "strength": "light",
-"adjectives": [
-"clean",
-"airy"
-],
-"gender": "unisex",
 "type": [
-"aquatic"
-]
+"clean",
+"airy", "aquatic"
+],
+"gender": "masculine"
 },
 
 {
@@ -2624,14 +2617,11 @@
 "special occasion"
 ],
 "strength": "strong",
-"adjectives": [
-"elegant",
-"cozy"
-],
-"gender": "feminine",
 "type": [
-"floral"
-]
+"elegant",
+"cozy", "floral"
+],
+"gender": "feminine"
 },
 
 
@@ -2648,21 +2638,18 @@
 "romantic"
 ],
 "strength": "strong",
-"adjectives": [
-"clean",
-"elegant"
-],
-"gender": "masculine",
 "type": [
-"woody"
-]
+"clean",
+"elegant", "woody"
+],
+"gender": "masculine"
 },
 {
     "name": "Dior Eau Sauvage",
     "link": "https://www.dior.com/en_us/products/beauty-Y0405277-eau-sauvage-eau-de-toilette",
     "notes": ["citrus"],
     "price": 115,
-    "events": ["daily", "office", "summer"],
+    "events": ["daily", "office", "warm weather"],
     "strength": "strong",
     "adjectives": ["sharp", "clean"],
     "gender": "masculine",
@@ -2673,29 +2660,19 @@
     "link": "https://www.calvinklein.us/en/ck-one-eau-de-toilette-48161212",
     "notes": ["musk", "citrus"],
     "price": 72,
-    "events": ["daily", "school", "casual"],
+    "events": ["daily", "school", "daily"],
     "strength": "strong",
     "adjectives": ["sharp", "fresh"],
     "gender": "unisex",
     "type": ["clean"]
   },
-  {
-    "name": "Tom Ford Oud Wood",
-    "link": "https://www.tomford.com/beauty/fragrance/oud-wood/PRD40019.html",
-    "notes": ["oud", "amber", "wood"],
-    "price": 295,
-    "events": ["special occasion", "date", "evening"],
-    "strength": "strong",
-    "adjectives": ["youthful", "warm"],
-    "gender": "unisex",
-    "type": ["woody"]
-  },
+  
   {
     "name": "Dolce & Gabbana Light Blue Living Stromboli",
     "link": "https://www.fragrantica.com/perfume/Dolce-Gabbana/Light-Blue-Pour-Homme-Living-Stromboli-13947.html",
     "notes": ["marine", "citrus", "oud"],
     "price": 95,
-    "events": ["daily", "vacation", "beach"],
+    "events": ["daily", "warm weather", "warm weather"],
     "strength": "strong",
     "adjectives": ["airy", "fresh"],
     "gender": "masculine",
@@ -2706,11 +2683,11 @@
     "link": "https://www.azzaroparis.com/en-us/fragrances/chrome",
     "notes": ["citrus", "wood", "metallic"],
     "price": 98,
-    "events": ["daily", "office", "sport"],
+    "events": ["daily", "office", "gym"],
     "strength": "strong",
     "adjectives": ["sharp", "bright"],
     "gender": "masculine",
-    "type": ["aromatic"]
+    "type": ["earthy"]
   },
 {
 "name": "Chanel Coco Mademoiselle",
@@ -2735,44 +2712,94 @@
 ]
 },
 {
-    "name": "Molinard Habanita",
-    "link": "https://www.fragrantica.com/perfume/Molinard/Habanita-635.html",
-    "notes": ["vanilla", "leather", "resin"],
-    "price": 95,
-    "events": ["evening", "fall"],
-    "strength": "strong",
-    "adjectives": ["sharp", "gloomy"],
-    "gender": "feminine",
-    "type": ["oriental"]
+  "name": "Molinard Habanita",
+  "link": "https://www.fragrantica.com/perfume/Molinard/Habanita-635.html",
+  "notes": ["vanilla", "amber", "leather"],
+  "price": 95,
+  "events": ["night out", "romantic"],
+  "strength": "strong",
+  "adjectives": ["bold", "dark", "elegant"],
+  "gender": "feminine",
+  "type": ["dark"]
+},
+[
+  {
+    "name": "Vanilla Sky",
+    "link": "https://skylar.com/products/vanilla-sky",
+    "notes": ["vanilla", "cappuccino", "caramel", "sandalwood"],
+    "price": 48,
+    "events": ["cold weather", "daily", "cozy"],
+    "strength": "light",
+    "adjectives": ["sweet", "warm", "cozy"],
+    "gender": "unisex"
   },
   {
-    "name": "Juliette Has a Gun Vanilla Vibes",
-    "link": "https://www.fragrancenet.com/fragrances/juliette-has-a-gun/vanilla-vibes",
-    "notes": ["vanilla", "sea salt", "musk"],
-    "price": 135,
-    "events": ["summer", "casual"],
-    "strength": "strong",
-    "adjectives": ["airy", "playful"],
-    "gender": "feminine",
-    "type": ["gourmand"]
+    "name": "Pacifica Island Vanilla",
+    "link": "https://www.pacificabeauty.com/products/island-vanilla-perfume",
+    "notes": ["vanilla", "white tea", "honey-jasmine"],
+    "price": 22,
+    "events": ["cold weather", "daily", "daily"],
+    "strength": "light",
+    "adjectives": ["sweet", "airy", "youthful"],
+    "gender": "unisex"
   },
   {
-    "name": "Chanel Chance Eau Fraîche",
-    "link": "https://www.chanel.com",
-    "notes": ["citrus", "lemon", "jasmine"],
-    "price": 113,
-    "events": ["daily", "work"],
-    "strength": "strong",
-    "adjectives": ["gloomy", "clean"],
-    "gender": "feminine",
-    "type": ["citrus"]
+    "name": "Sol de Janeiro Brazilian Crush Cheirosa 71",
+    "link": "https://soldejaneiro.com/products/cheirosa-71",
+    "notes": ["vanilla", "caramelized macadamia", "white chocolate"],
+    "price": 35,
+    "events": ["cold weather", "", "daily"],
+    "strength": "light",
+    "adjectives": ["sweet", "warm", "gourmand", "cozy"],
+    "gender": "unisex"
+  }
+],
+[
+  
+  {
+    "name": "Bath & Body Works Warm Vanilla Sugar",
+    "link": "https://www.bathandbodyworks.com/p/warm-vanilla-sugar-fine-fragrance-mist-022879228.html",
+    "notes": ["vanilla", "floral notes", "coconut", "sandalwood", "tonka bean"],
+    "price": 16.50,
+    "events": ["special occasion", "daily", "romantic"],
+    "strength": "light",
+    "adjectives": ["sweet", "warm", "youthful"],
+    "gender": "feminine"
   },
+  {
+    "name": "Pacifica Tahitian Gardenia Vanilla",
+    "link": "https://www.pacificabeauty.com/products/tahitian-gardenia-perfume",
+    "notes": ["vanilla", "gardenia", "jasmine", "orange flower", "tea"],
+    "price": 22,
+    "events": ["special occasion", "daily", "romantic"],
+    "strength": "light",
+    "adjectives": ["floral", "sweet", "airy"],
+    "gender": "feminine"
+  }
+],
+
+
+
+  {
+    "name": "Versace Man Eau Fraîche",
+    "link": "https://www.fragrancenet.com/fragrances/versace/man-eau-fraiche",
+    "gender": "masculine",
+    "price": 70,
+    "events": ["gym", "daily", "warm weather"],
+    "strength": "strong",
+    "notes": ["citrus", "lemon", "bergamot", "amber"],
+    "adjectives": ["fresh", "clean", "vibrant"],
+    "type": ["fruity", "fresh", "citrus"]
+},
+
+
+  
   {
     "name": "Acqua di Parma Arancia di Capri",
     "link": "https://fragrancelord.com/blogs/news/what-is-the-best-citrus-perfume",
     "notes": ["orange", "lemon", "grapefruit"],
     "price": 120,
-    "events": ["vacation", "daily"],
+    "events": ["warm weather", "daily"],
     "strength": "strong",
     "adjectives": ["playful", "bright"],
     "gender": "unisex",
@@ -2783,7 +2810,7 @@
     "link": "https://www.fragrantica.com/perfume/Alkemia/Blackberry-Noir-25092.html",
     "notes": ["musk", "blackberry", "tea"],
     "price": 30,
-    "events": ["evening", "fall"],
+    "events": ["night out", "fall"],
     "strength": "strong",
     "adjectives": ["gloomy", "dark"],
     "gender": "unisex",
@@ -2794,7 +2821,7 @@
     "link": "https://www.whowhatwear.com/best-musk-perfumes",
     "notes": ["musk", "iris", "amber"],
     "price": 98,
-    "events": ["daily", "date"],
+    "events": ["daily", "romantic"],
     "strength": "strong",
     "adjectives": ["playful", "clean"],
     "gender": "unisex",
@@ -2821,7 +2848,7 @@
 "clean",
 "airy"
 ],
-"gender": "unisex",
+"gender": "masculine",
 "type": [
 "aquatic"
 ]
@@ -2848,30 +2875,6 @@
 "gender": "masculine",
 "type": [
 "woody"
-]
-},
-
-
-{
-"name": "Amourage Reflection Man",
-"link": "https://www.amouage.com/reflection-man",
-"notes": [
-"citrus"
-],
-"price": 295,
-"events": [
-"office",
-"romantic",
-"special occasion"
-],
-"strength": "strong",
-"adjectives": [
-"elegant",
-"clean"
-],
-"gender": "masculine",
-"type": [
-"floral"
 ]
 },
 
@@ -3005,6 +3008,318 @@
 "floral"
 ]
 },
+[
+  {
+    "name": "Clean Reserve Warm Cotton",
+    "link": "https://www.fragrancenet.com/fragrances/clean/reserve-warm-cotton",
+    "notes": ["amber"],
+    "price": 85,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["clean", "cozy"],
+    "gender": "feminine",
+    "type": ["fresh", "powdery"]
+  },
+  
+  
+  {
+    "name": "Replica Fireside Glow",
+    "link": "https://www.maisonmargiela.com",
+    "notes": ["incense"],
+    "price": 95,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["dark", "cozy"],
+    "gender": "feminine",
+    "type": ["fresh", "smoky"]
+  },
+  {
+    "name": "Jo Malone Leather Blossom",
+    "link": "https://www.jomalone.com",
+    "notes": ["leather"],
+    "price": 98,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["bold", "warm"],
+    "gender": "feminine",
+    "type": ["fresh", "woody"]
+  }
+],[
+  {
+    "name": "Yves Rocher Winter Oud",
+    "link": "https://www.yves-rocher.com",
+    "notes": ["oud"],
+    "price": 80,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["dark", "warm"],
+    "gender": "feminine",
+    "type": ["fresh", "woody"]
+  },
+  {
+    "name": "The Body Shop Tea Breeze",
+    "link": "https://www.thebodyshop.com",
+    "notes": ["tea"],
+    "price": 65,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["airy", "cozy"],
+    "gender": "feminine",
+    "type": ["fresh", "green"]
+  },
+  {
+    "name": "Bath & Body Works Vanilla Arctic Mist",
+    "link": "https://www.bathandbodyworks.com",
+    "notes": ["vanilla"],
+    "price": 48,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["sweet", "youthful"],
+    "gender": "feminine",
+    "type": ["fresh", "gourmand"]
+  },
+  {
+    "name": "Glossier You Light Amber Edition",
+    "link": "https://www.glossier.com",
+    "notes": ["amber"],
+    "price": 49,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["clean", "powdery"],
+    "gender": "feminine",
+    "type": ["fresh", "musky"]
+  },
+  {
+    "name": "Pacifica Frosted Fig & Boozy Berries",
+    "link": "https://www.pacificabeauty.com",
+    "notes": ["boozy"],
+    "price": 42,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["fruity", "fun"],
+    "gender": "feminine",
+    "type": ["fresh", "fruity"]
+  }
+],[
+  {
+    "name": "Versed Light Citrus Layer",
+    "link": "https://www.versedskin.com",
+    "notes": ["citrus"],
+    "price": 47,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["clean", "airy"],
+    "gender": "feminine",
+    "type": ["fresh", "aquatic"]
+  },
+  {
+    "name": "Maison Luna Chill Incense",
+    "link": "https://www.maisonluna.com",
+    "notes": ["incense"],
+    "price": 99,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["mysterious", "powdery"],
+    "gender": "feminine",
+    "type": ["fresh", "dark"]
+  },
+  {
+    "name": "H&M Sheer Leather Veil",
+    "link": "https://www.hm.com",
+    "notes": ["leather"],
+    "price": 39,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["bold", "elegant"],
+    "gender": "feminine",
+    "type": ["fresh", "metallic"]
+  },
+  {
+    "name": "Lush Fresh Oud Breeze",
+    "link": "https://www.lush.com",
+    "notes": ["oud"],
+    "price": 85,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["earthy", "cozy"],
+    "gender": "feminine",
+    "type": ["fresh", "earthy"]
+  },
+  {
+    "name": "Caudalie Thé de Givre",
+    "link": "https://www.caudalie.com",
+    "notes": ["tea"],
+    "price": 59,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["herbal", "calm"],
+    "gender": "feminine",
+    "type": ["fresh", "herbal"]
+  }
+],[
+  {
+    "name": "Philosophy Warm Vanilla Softness",
+    "link": "https://www.philosophy.com",
+    "notes": ["vanilla"],
+    "price": 50,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["sweet", "cozy"],
+    "gender": "feminine",
+    "type": ["fresh", "creamy"]
+  },
+  {
+    "name": "Lancôme Ambre Chill",
+    "link": "https://www.lancome-usa.com",
+    "notes": ["amber"],
+    "price": 95,
+    "events": ["cold weather"],
+    "strength": "strong",
+    "adjectives": ["warm", "elegant"],
+    "gender": "feminine",
+    "type": ["fresh", "powdery"]
+  },
+  {
+    "name": "KAYALI Midnight Boozy Musk",
+    "link": "https://www.hudabeauty.com",
+    "notes": ["boozy"],
+    "price": 89,
+    "events": ["cold weather"],
+    "strength": "strong",
+    "adjectives": ["bold", "dark"],
+    "gender": "feminine",
+    "type": ["fresh", "musky"]
+  },
+  
+  {
+    "name": "Diptyque Snow Ember",
+    "link": "https://www.diptyqueparis.com",
+    "notes": ["incense"],
+    "price": 98,
+    "events": ["cold weather"],
+    "strength": "strong",
+    "adjectives": ["mysterious", "earthy"],
+    "gender": "feminine",
+    "type": ["fresh", "earthy"]
+  }
+],[
+  {
+    "name": "Chanel Chance Eau Fraiche",
+    "link": "https://www.chanel.com",
+    "notes": ["citrus", "amber"],
+    "price": 90,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["clean", "fresh"],
+    "gender": "feminine",
+    "type": ["fresh", "fruity"]
+  },
+  {
+    "name": "Dior J'adore L'or",
+    "link": "https://www.dior.com",
+    "notes": ["amber", "vanilla"],
+    "price": 95,
+    "events": ["cold weather"],
+    "strength": "strong",
+    "adjectives": ["elegant", "warm"],
+    "gender": "feminine",
+    "type": ["fresh", "floral"]
+  },
+  
+  {
+    "name": "Tom Ford Neroli Portofino",
+    "link": "https://www.tomford.com",
+    "notes": ["citrus", "amber"],
+    "price": 150,
+    "events": ["office", "cold weather"],
+    "strength": "light",
+    "adjectives": ["fresh", "citrusy"],
+    "gender": "feminine",
+    "type": ["fresh", "aquatic"]
+  },
+  {
+    "name": "Marc Jacobs Daisy Eau So Fresh",
+    "link": "https://www.marcjacobs.com",
+    "notes": ["citrus", "amber", "floral"],
+    "price": 75,
+    "events": ["cold weather"],
+    "strength": "light",
+    "adjectives": ["floral", "youthful"],
+    "gender": "feminine",
+    "type": ["fresh", "floral"]
+  },
+  {
+    "name": "Hermès Eau de Rhubarbe Écarlate",
+    "link": "https://www.hermes.com",
+    "notes": ["citrus", "tea"],
+    "price": 100,
+    "events": ["cold weather", "daily"],
+    "strength": "light",
+    "adjectives": ["clean", "fresh"],
+    "gender": "feminine",
+    "type": ["fresh", "herbal"]
+  },
+  {
+    "name": "Maison Crivelli Hibiscus Mahajád",
+    "link": "https://maisoncrivelli.com/products/hibiscus-mahajad-eau-de-parfum",
+    "notes": ["hibiscus", "rose", "vanilla", "leather", "cinnamon"],
+    "price": 250,
+    "events": ["romantic", "special occasion"],
+    "strength": "strong",
+    "adjectives": ["floral", "warm", "bold"],
+    "gender": "unisex",
+    "type": ["floral", "gourmand", "fruity"]
+  },
+  {
+    "name": "Viktor & Rolf Flowerbomb",
+    "link": "https://www.viktor-rolf.com",
+    "notes": ["amber", "tea", "floral"],
+    "price": 120,
+    "events": ["cold weather", "romantic"],
+    "strength": "strong",
+    "adjectives": ["elegant", "sophisticated"],
+    "gender": "feminine",
+    "type": ["fresh", "floral"]
+  },
+  {
+    "name": "Gucci Bloom Nettare di Fiori",
+    "link": "https://www.gucci.com",
+    "notes": ["floral", "amber"],
+    "price": 105,
+    "events": ["cold weather", "romantic"],
+    "strength": "strong",
+    "adjectives": ["romantic", "elegant"],
+    "gender": "feminine",
+    "type": ["fresh", "floral"]
+  },
+  {
+    "name": "Jo Malone London Peony & Blush Suede",
+    "link": "https://www.jomalone.com",
+    "notes": ["citrus", "floral"],
+    "price": 120,
+    "events": ["cold weather", "daily"],
+    "strength": "light",
+    "adjectives": ["fresh", "elegant"],
+    "gender": "feminine",
+    "type": ["fresh", "floral"]
+  },
+  {
+    "name": "Diptyque Eau de Minthé",
+    "link": "https://www.diptyqueparis.com",
+    "notes": ["tea", "amber"],
+    "price": 85,
+    "events": ["cold weather", "daily"],
+    "strength": "light",
+    "adjectives": ["fresh", "green"],
+    "gender": "feminine",
+    "type": ["fresh", "herbal"]
+  }
+],
+
+
+
+
+
 
 {
 "name": "Armaf Tres Nuit",
@@ -3114,17 +3429,7 @@
       "type": ["floral"]
     },
 
-{
-      "name": "Dior Sauvage Elixir",
-      "link": "https://www.dior.com/sauvage-elixir",
-      "notes": ["citrus", "amber"],
-      "price": 220,
-      "events": ["romantic", "special occasion", "night out"],
-      "strength": "strong",
-      "adjectives": ["bold", "dark", "elegant"],
-      "gender": "masculine",
-      "type": ["spicy"]
-    },
+
 
 {
       "name": "Dior J'adore Eau de Parfum",
@@ -3138,31 +3443,9 @@
       "type": ["floral"]
     },
 
-{
-      "name": "Tom Ford Lost Cherry",
-      "link": "https://www.tomford.com/lost-cherry",
-      "notes": ["vanilla"],
-      "price": 420,
-      "events": ["romantic", "special occasion"],
-      "strength": "strong",
-      "adjectives": ["cozy", "bold", "elegant"],
-      "gender": "unisex",
-      "type": ["gourmand"]
-    },
 
 
 
-{
-      "name": "Maison Francis Kurkdjian Aqua Celestia",
-      "link": "https://www.maisonfranciskurkdjian.com/aqua-celestia",
-      "notes": ["citrus", "musk"],
-      "price": 290,
-      "events": ["daily", "office"],
-      "strength": "light",
-      "adjectives": ["clean", "airy"],
-      "gender": "unisex",
-      "type": ["aquatic"]
-    },
 
 
 {
@@ -3222,17 +3505,7 @@
       "gender": "masculine",
       "type": ["woody"]
     },
-{
-      "name": "Dior Fahrenheit",
-      "link": "https://dior.com",
-      "notes": ["leather"],
-      "price": 150,
-      "events": ["romantic", "special occasion"],
-      "strength": "strong",
-      "adjectives": ["bold", "dark"],
-      "gender": "masculine",
-      "type": ["woody"]
-    },
+
 {
       "name": "Dior Eau Sauvage Parfum",
       "link": "https://dior.com",
@@ -3255,17 +3528,7 @@
       "gender": "masculine",
       "type": ["powdery"]
     },
-{
-      "name": "Tom Ford Tobacco Vanille",
-      "link": "https://tomfordbeauty.com",
-      "notes": ["vanilla", "boozy"],
-      "price": 390,
-      "events": ["cold weather", "romantic"],
-      "strength": "strong",
-      "adjectives": ["warm", "bold"],
-      "gender": "unisex",
-      "type": ["gourmand"]
-    },
+
 {
       "name": "Tom Ford Fucking Fabulous",
       "link": "https://tomfordbeauty.com",
@@ -3353,50 +3616,8 @@
     ],
     "gender": "masculine"
     },
-{
-    "name": "Creed Virgin Island Water",
-    "link": "https://creedfragrance.com",
-    "type": [
-    "fruity"
-    ],
-    "notes": [
-    "citrus",
-    "boozy"
-    ],
-    "price": 485,
-    "events": [
-    "warm weather"
-    ],
-    "strength": "light",
-    "adjectives": [
-    "airy",
-    "clean"
-    ],
-    "gender": "unisex"
-    },
-{
-    "name": "Maison Francis Kurkdjian Grand Soir",
-    "link": "https://franciskurkdjian.com",
-    "type": [
-    "sweet"
-    ],
-    "notes": [
-    "amber",
-    "vanilla"
-    ],
-    "price": 315,
-    "events": [
-    "night out",
-    "special occasion",
-    "cold weather"
-    ],
-    "strength": "strong",
-    "adjectives": [
-    "warm",
-    "cozy"
-    ],
-    "gender": "unisex"
-    },
+
+
 {
     "name": "Maison Francis Kurkdjian Petit Matin",
     "link": "https://franciskurkdjian.com",
@@ -3554,27 +3775,7 @@
     ],
     "gender": "masculine"
     },
-{
-    "name": "Versace Man Eau Fraîche",
-    "link": "https://versace.com",
-    "type": [
-    "aquatic"
-    ],
-    "notes": [
-    "citrus"
-    ],
-    "price": 78,
-    "events": [
-    "warm weather",
-    "daily"
-    ],
-    "strength": "light",
-    "adjectives": [
-    "clean",
-    "airy"
-    ],
-    "gender": "masculine"
-    },
+
 {
     "name": "Versace Eros Flame",
     "link": "https://versace.com",
@@ -3716,26 +3917,7 @@
     ],
     "gender": "masculine"
     },
-{
-    "name": "Frederic Malle Carnal Flower",
-    "link": "https://fredericmalle.com",
-    "type": [
-    "floral"
-    ],
-    "notes": [
-    "musk"
-    ],
-    "price": 435,
-    "events": [
-    "romantic",
-    "night out"
-    ],
-    "strength": "strong",
-    "adjectives": [
-    "bold"
-    ],
-    "gender": "feminine"
-    },
+
 
 {
     "name": "Frederic Malle French Lover",
@@ -4075,6 +4257,17 @@
             "green"
           ]
         },
+        {
+          "name": "City Rhythm San Diego",
+          "link": "https://cityrhythmfragrances.com/products/san-diego",
+          "gender": "unisex",
+          "price": 205,
+          "events": ["daily", "warm weather", "casual"],
+          "strength": "light",
+          "notes": ["grapefruit", "sea salt", "cucumber", "driftwood", "amber"],
+          "adjectives": ["fresh", "airy", "aquatic"],
+          "type": ["fresh", "aquatic", "fruity"]
+        },
 {
           "name": "City Rhythm Manhattan",
           "link": "https://cityrhythmfragrances.com",
@@ -4106,7 +4299,7 @@
             "citrus",
             "boozy"
           ],
-          "price": 165,
+          "price": 205,
           "events": [
             "warm weather",
             "daily"
@@ -4129,7 +4322,7 @@
             "leather",
             "vanilla"
           ],
-          "price": 98,
+          "price": 195,
           "events": [
             "daily",
             "cold weather"
@@ -4145,28 +4338,7 @@
             "smoky"
           ]
         },
-{
-          "name": "Dior Homme Intense",
-          "link": "https://www.dior.com",
-          "notes": [
-            "musk"
-          ],
-          "price": 125,
-          "events": [
-            "office",
-            "romantic"
-          ],
-          "strength": "light",
-          "adjectives": [
-            "elegant",
-            "clean"
-          ],
-          "gender": "masculine",
-          "type": [
-            "powdery",
-            "woody"
-          ]
-        },
+
 {
           "name": "Dior Dune Pour Homme",
           "link": "https://www.dior.com",
@@ -4189,29 +4361,7 @@
             "aquatic"
           ]
         },
-{
-          "name": "Tom Ford Noir Extreme",
-          "link": "https://www.tomford.com",
-          "notes": [
-            "amber",
-            "vanilla"
-          ],
-          "price": 185,
-          "events": [
-            "night out",
-            "romantic"
-          ],
-          "strength": "strong",
-          "adjectives": [
-            "warm",
-            "bold"
-          ],
-          "gender": "masculine",
-          "type": [
-            "spicy",
-            "gourmand"
-          ]
-        },
+
 {
           "name": "Tom Ford Beau de Jour",
           "link": "https://www.tomford.com",
@@ -4324,29 +4474,7 @@
             "fresh"
           ]
         },
-{
-          "name": "Maison Francis Kurkdjian Oud Satin Mood",
-          "link": "https://www.franciskurkdjian.com",
-          "notes": [
-            "oud",
-            "vanilla"
-          ],
-          "price": 350,
-          "events": [
-            "night out",
-            "special occasion"
-          ],
-          "strength": "strong",
-          "adjectives": [
-            "dark",
-            "mysterious"
-          ],
-          "gender": "unisex",
-          "type": [
-            "woody",
-            "sweet"
-          ]
-        },
+
 {
           "name": "Maison Francis Kurkdjian Gentle Fluidity Silver",
           "link": "https://www.franciskurkdjian.com",
@@ -4550,51 +4678,8 @@
             "woody"
           ]
         },
-{
-          "name": "Maison Alhambra Tobacco Touch",
-          "link": "https://maisonalhambra.com",
-          "notes": [
-            "vanilla"
-          ],
-          "price": 35,
-          "events": [
-            "night out",
-            "cold weather"
-          ],
-          "strength": "strong",
-          "adjectives": [
-            "warm",
-            "cozy"
-          ],
-          "gender": "unisex",
-          "type": [
-            "spicy",
-            "smoky"
-          ]
-        },
-{
-          "name": "Maison Alhambra Kismet Angel",
-          "link": "https://maisonalhambra.com",
-          "notes": [
-            "boozy",
-            "vanilla"
-          ],
-          "price": 35,
-          "events": [
-            "night out",
-            "special occasion"
-          ],
-          "strength": "strong",
-          "adjectives": [
-            "warm",
-            "youthful"
-          ],
-          "gender": "unisex",
-          "type": [
-            "gourmand",
-            "sweet"
-          ]
-        },
+
+
 {
           "name": "Maison Alhambra Porto Neroli",
           "link": "https://maisonalhambra.com",
@@ -4999,28 +5084,7 @@
     "floral"
     ]
     },
-{
-    "name": "Swiss Arabian Shaghaf Oud Aswad",
-    "link": "https://swissarabian.com",
-    "notes": [
-    "oud"
-    ],
-    "price": 35,
-    "events": [
-    "night out",
-    "special occasion"
-    ],
-    "strength": "strong",
-    "adjectives": [
-    "warm",
-    "bold"
-    ],
-    "gender": "unisex",
-    "type": [
-    "spicy",
-    "woody"
-    ]
-    },
+
 {
     "name": "Swiss Arabian Edge Intense",
     "link": "https://swissarabian.com",
@@ -5332,6 +5396,2980 @@
     "sweet"
     ]
     },
+    [
+      {
+        "name": "Body Fantasies Vanilla",
+        "link": "https://www.amazon.com/Body-Fantasies-Signature-Vanilla-Spray/dp/B00H29ST5S",
+        "notes": ["vanilla"],
+        "price": 15,
+        "events": ["daily", "daily"],
+        "strength": "strong",
+        "adjectives": ["sweet", "cozy"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Jovan White Musk for Women",
+        "link": "https://www.amazon.com/Jovan-White-Musk-Women-Spray/dp/B000C1W4AY",
+        "notes": ["citrus", "musk"],
+        "price": 18,
+        "events": ["daily", "office"],
+        "strength": "strong",
+        "adjectives": ["clean", "fresh"],
+        "gender": "feminine",
+        "type": ["fresh"]
+      },
+      {
+        "name": "Al Haramain L'Aventure Femme",
+        "link": "https://www.amazon.com/Al-Haramain-LAventure-Femme-Spray/dp/B07MPWLVTT",
+        "notes": ["oud", "citrus", "amber"],
+        "price": 45,
+        "events": ["special occasion", "romantic"],
+        "strength": "strong",
+        "adjectives": ["bold", "elegant"],
+        "gender": "feminine",
+        "type": ["woody"]
+      },
+      {
+        "name": "Lattafa Opulent Musk",
+        "link": "https://www.amazon.com/Lattafa-Opulent-Musk/dp/B09H3J8CMY",
+        "notes": ["incense", "musk"],
+        "price": 40,
+        "events": ["romantic", "night out"],
+        "strength": "strong",
+        "adjectives": ["bold", "mysterious"],
+        "gender": "feminine",
+        "type": ["spicy"]
+      },
+      {
+        "name": "Al Rehab Soft",
+        "link": "https://www.amazon.com/Al-Rehab-Soft-Perfume/dp/B0026OR2F2",
+        "notes": ["leather", "vanilla"],
+        "price": 12,
+        "events": ["daily", "daily"],
+        "strength": "strong",
+        "adjectives": ["cozy", "smooth"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "The Body Shop White Musk Flora",
+        "link": "https://www.thebodyshop.com/en-us/fragrance/eau-de-toilette/white-musk-flora-eau-de-toilette/p/p003926",
+        "notes": ["tea", "musk", "citrus"],
+        "price": 35,
+        "events": ["daily", "office"],
+        "strength": "strong",
+        "adjectives": ["airy", "clean"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Revlon Charlie Gold",
+        "link": "https://www.amazon.com/Charlie-Gold-Women-Revlon-3-3/dp/B000C1U8G8",
+        "notes": ["amber", "vanilla"],
+        "price": 22,
+        "events": ["night out", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["warm", "elegant"],
+        "gender": "feminine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Milton Lloyd Spirit of Heaven",
+        "link": "https://www.amazon.com/Milton-Lloyd-Heaven-Fragrance-Women/dp/B00U2KHGCQ",
+        "notes": ["boozy", "vanilla"],
+        "price": 30,
+        "events": ["romantic", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["sweet", "warm"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      }
+    ],[
+      {
+        "name": "Bodycology Vanilla Cupcake",
+        "link": "https://www.walmart.com/ip/Bodycology-Vanilla-Cupcake-Body-Mist/165234276",
+        "notes": ["vanilla"],
+        "price": 10,
+        "events": ["daily", "school", "daily"],
+        "strength": "light",
+        "adjectives": ["sweet", "playful"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Body Fantasies Signature Fresh White Musk",
+        "link": "https://www.amazon.com/Body-Fantasies-Signature-Fresh-White/dp/B0010V61HC",
+        "notes": ["citrus", "musk"],
+        "price": 12,
+        "events": ["daily", "office", "school"],
+        "strength": "light",
+        "adjectives": ["clean", "fresh"],
+        "gender": "feminine",
+        "type": ["fresh"]
+      },
+      {
+        "name": "Lattafa Yara Moi",
+        "link": "https://www.amazon.com/Lattafa-Yara-Moi/dp/B0B5K95K71",
+        "notes": ["oud", "vanilla"],
+        "price": 45,
+        "events": ["romantic", "office"],
+        "strength": "light",
+        "adjectives": ["soft", "smooth", "cozy"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Swiss Arabian Layali",
+        "link": "https://www.amazon.com/Swiss-Arabian-Layali-Concentrated/dp/B01C49V8VU",
+        "notes": ["incense", "oud", "floral"],
+        "price": 40,
+        "events": ["special occasion", "night out"],
+        "strength": "light",
+        "adjectives": ["exotic", "airy"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Al Rehab Dalal",
+        "link": "https://www.amazon.com/Al-Rehab-Dalal-Perfume-Oil/dp/B004L6GU04",
+        "notes": ["leather", "vanilla"],
+        "price": 15,
+        "events": ["daily", "daily"],
+        "strength": "light",
+        "adjectives": ["smooth", "cozy"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "The Body Shop Japanese Cherry Blossom",
+        "link": "https://www.thebodyshop.com/en-us/fragrance/eau-de-toilette/japanese-cherry-blossom-eau-de-toilette/p/p003887",
+        "notes": ["tea", "musk", "cherry blossom"],
+        "price": 35,
+        "events": ["daily", "office"],
+        "strength": "light",
+        "adjectives": ["airy", "clean", "youthful"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Jovan Musk for Women",
+        "link": "https://www.amazon.com/Jovan-Musk-Women-Cologne-Spray/dp/B000C1W44M",
+        "notes": ["amber", "musk"],
+        "price": 18,
+        "events": ["daily", "daily"],
+        "strength": "light",
+        "adjectives": ["warm", "cozy", "fresh"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Coty Exclamation",
+        "link": "https://www.amazon.com/Coty-Exclamation-Cologne-Spray-Ounce/dp/B000C1U3IQ",
+        "notes": ["boozy", "vanilla"],
+        "price": 20,
+        "events": ["night out", "school", "daily"],
+        "strength": "light",
+        "adjectives": ["sweet", "playful"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      }
+    ],[
+      {
+        "name": "Ariana Grande Cloud",
+        "link": "https://www.ulta.com/p/cloud-eau-de-parfum-pimprod2007139",
+        "notes": ["vanilla", "coconut", "amber"],
+        "price": 65,
+        "events": ["romantic", "daily"],
+        "strength": "strong",
+        "adjectives": ["cozy", "sweet", "playful"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Versace Bright Crystal Absolu",
+        "link": "https://www.ulta.com/p/bright-crystal-absolu-eau-de-parfum-pimprod2013870",
+        "notes": ["citrus", "pomegranate", "peony"],
+        "price": 90,
+        "events": ["daily", "romantic"],
+        "strength": "strong",
+        "adjectives": ["elegant", "youthful"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Swiss Arabian Shaghaf Oud Aswad",
+        "link": "https://www.amazon.com/Swiss-Arabian-Shaghaf-Oud-Aswad/dp/B07NSM1PH8",
+        "notes": ["oud", "saffron", "rose"],
+        "price": 75,
+        "events": ["special occasion", "romantic"],
+        "strength": "strong",
+        "adjectives": ["bold", "dark", "elegant"],
+        "gender": "feminine",
+        "type": ["woody"]
+      },
+      {
+        "name": "Lattafa Khamrah",
+        "link": "https://www.amazon.com/Lattafa-Khamrah-Unisex-Eau-Parfum/dp/B0BJFHR2XG",
+        "notes": ["incense", "cinnamon", "dates"],
+        "price": 65,
+        "events": ["night out", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["bold", "mysterious", "sweet"],
+        "gender": "feminine",
+        "type": ["spicy"]
+      },
+      {
+        "name": "Juliette Has a Gun Midnight Oud",
+        "link": "https://www.fragrancenet.com/perfume/juliette-has-a-gun/midnight-oud",
+        "notes": ["leather", "oud", "amber"],
+        "price": 100,
+        "events": ["romantic", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["dark", "bold", "smooth"],
+        "gender": "feminine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Elizabeth Arden White Tea Ginger Lily",
+        "link": "https://www.amazon.com/Elizabeth-Arden-Ginger-Eau-Toilette/dp/B085C6K9TG",
+        "notes": ["tea", "ginger", "citrus"],
+        "price": 65,
+        "events": ["daily", "office"],
+        "strength": "strong",
+        "adjectives": ["fresh", "clean", "calm"],
+        "gender": "feminine",
+        "type": ["fresh"]
+      },
+      {
+        "name": "Boucheron Jaipur Bracelet",
+        "link": "https://www.fragrancenet.com/perfume/boucheron/jaipur-bracelet",
+        "notes": ["amber", "jasmine", "citrus"],
+        "price": 70,
+        "events": ["romantic", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["warm", "elegant", "mature"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Michael Kors Sexy Amber",
+        "link": "https://www.ulta.com/p/sexy-amber-eau-de-parfum-pimprod2013880",
+        "notes": ["boozy", "amber", "sandalwood"],
+        "price": 95,
+        "events": ["romantic", "night out"],
+        "strength": "strong",
+        "adjectives": ["bold", "warm", "sensual"],
+        "gender": "feminine",
+        "type": ["warm"]
+      }
+    ],[
+      {
+        "name": "Philosophy Fresh Cream",
+        "link": "https://www.ulta.com/p/fresh-cream-eau-de-toilette-pimprod2007137",
+        "notes": ["vanilla", "whipped cream"],
+        "price": 55,
+        "events": ["daily", "school", "daily"],
+        "strength": "light",
+        "adjectives": ["cozy", "soft", "sweet"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Clinique Happy",
+        "link": "https://www.ulta.com/p/happy-eau-de-parfum-pimprod2007138",
+        "notes": ["citrus", "bergamot", "grapefruit"],
+        "price": 70,
+        "events": ["daily", "office", "warm weather"],
+        "strength": "light",
+        "adjectives": ["clean", "bright", "fresh"],
+        "gender": "feminine",
+        "type": ["citrus"]
+      },
+      {
+        "name": "Swiss Arabian Shaghaf Oud Abyad",
+        "link": "https://www.amazon.com/Swiss-Arabian-Shaghaf-Oud-Abyad/dp/B07MSVL3ZH",
+        "notes": ["oud", "citrus", "spice","boozy"],
+        "price": 85,
+        "events": ["daily", "romantic"],
+        "strength": "light",
+        "adjectives": ["smooth", "airy", "refined"],
+        "gender": "feminine",
+        "type": ["woody"]
+      },
+      {
+        "name": "Demeter Incense",
+        "link": "https://www.demeterfragrance.com/collections/fragrance/products/incense",
+        "notes": ["incense"],
+        "price": 60,
+        "events": ["daily", "spiritual"],
+        "strength": "light",
+        "adjectives": ["calm", "ethereal"],
+        "gender": "feminine",
+        "type": ["spicy"]
+      },
+      {
+        "name": "Coach Dreams Sunset",
+        "link": "https://www.ulta.com/p/dreams-sunset-eau-de-parfum-pimprod2022263",
+        "notes": ["leather", "vanilla", "pear"],
+        "price": 90,
+        "events": ["romantic", "daily"],
+        "strength": "light",
+        "adjectives": ["cozy", "soft", "youthful"],
+        "gender": "feminine",
+        "type": ["fruity"]
+      },
+      {
+        "name": "Bvlgari Omnia Amethyste",
+        "link": "https://www.fragrancenet.com/perfume/bvlgari/omnia-amethyste",
+        "notes": ["tea", "grapefruit", "iris"],
+        "price": 85,
+        "events": ["daily", "office"],
+        "strength": "light",
+        "adjectives": ["clean", "airy", "fresh"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Elizabeth Taylor Diamonds and Rubies",
+        "link": "https://www.amazon.com/Elizabeth-Taylor-Diamonds-Rubies-Toilette/dp/B000C1VAA0",
+        "notes": ["amber", "plum", "peach"],
+        "price": 55,
+        "events": ["romantic", "special occasion"],
+        "strength": "light",
+        "adjectives": ["warm", "soft", "mature"],
+        "gender": "feminine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Lavanila Pure Vanilla",
+        "link": "https://www.amazon.com/Lavanila-Pure-Vanilla-Toilette/dp/B002WPAW3S",
+        "notes": ["boozy", "vanilla"],
+        "price": 68,
+        "events": ["daily", "daily", "romantic"],
+        "strength": "light",
+        "adjectives": ["soft", "sweet", "smooth"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      }
+    ],[
+      {
+        "name": "Guerlain Mon Guerlain",
+        "link": "https://www.sephora.com/product/mon-guerlain-P417117",
+        "notes": ["vanilla", "lavender", "sandalwood"],
+        "price": 135,
+        "events": ["romantic", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["elegant", "cozy", "warm"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Chanel Chance Eau Tendre Eau de Parfum",
+        "link": "https://www.chanel.com/us/fragrance/p/126520/chance-eau-tendre-eau-de-parfum/",
+        "notes": ["citrus", "grapefruit", "jasmine"],
+        "price": 155,
+        "events": ["daily", "romantic"],
+        "strength": "strong",
+        "adjectives": ["fresh", "elegant", "youthful"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Maison Lancôme Oud Bouquet",
+        "link": "https://www.lancome-usa.com/fragrance/oud-bouquet-eau-de-parfum/100008.html",
+        "notes": ["oud", "praline", "rose"],
+        "price": 185,
+        "events": ["special occasion", "romantic"],
+        "strength": "strong",
+        "adjectives": ["bold", "sweet", "elegant"],
+        "gender": "feminine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Tom Ford Black Orchid",
+        "link": "https://www.tomford.com/fragrance/black-orchid",
+        "notes": ["incense", "truffle", "patchouli"],
+        "price": 165,
+        "events": ["night out", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["dark", "mysterious", "bold"],
+        "gender": "feminine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Narciso Rodriguez Narciso Rouge",
+        "link": "https://www.sephora.com/product/narciso-rouge-P441508",
+        "notes": ["leather", "musk", "iris"],
+        "price": 120,
+        "events": ["romantic", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["smooth", "bold", "elegant"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Maison Margiela Replica Matcha Meditation",
+        "link": "https://www.sephora.com/product/replica-matcha-meditation-P470504",
+        "notes": ["tea", "white chocolate", "bergamot"],
+        "price": 144,
+        "events": ["daily", "relaxing"],
+        "strength": "strong",
+        "adjectives": ["calm", "airy", "fresh"],
+        "gender": "feminine",
+        "type": ["green"]
+      },
+      {
+        "name": "Prada Paradoxe Intense",
+        "link": "https://www.sephora.com/product/prada-paradoxe-intense-P505088",
+        "notes": ["amber", "musk", "neroli"],
+        "price": 142,
+        "events": ["romantic", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["elegant", "warm", "modern"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Carolina Herrera Good Girl Blush",
+        "link": "https://www.ulta.com/p/good-girl-blush-eau-de-parfum-pimprod2043859",
+        "notes": ["boozy", "vanilla", "peach"],
+        "price": 135,
+        "events": ["night out", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["sweet", "bold", "playful"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      }
+    ],[
+      {
+        "name": "Maison Margiela Replica Coffee Break",
+        "link": "https://www.sephora.com/product/replica-coffee-break-P456994",
+        "notes": ["vanilla", "coffee", "lavender"],
+        "price": 144,
+        "events": ["daily", "office", "daily"],
+        "strength": "light",
+        "adjectives": ["cozy", "airy", "calm"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Dior J'adore Eau Lumière",
+        "link": "https://www.dior.com/en_us/products/beauty-Y0685240-j-adore-eau-lumiere",
+        "notes": ["citrus", "magnolia", "neroli"],
+        "price": 135,
+        "events": ["daily", "office", "spring"],
+        "strength": "light",
+        "adjectives": ["elegant", "fresh", "bright"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Montale Roses Musk",
+        "link": "https://www.fragrancenet.com/perfume/montale/roses-musk",
+        "notes": ["oud", "musk", "rose"],
+        "price": 170,
+        "events": ["romantic", "special occasion"],
+        "strength": "light",
+        "adjectives": ["soft", "elegant", "romantic"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Juliette Has a Gun Not a Perfume Superdose",
+        "link": "https://www.sephora.com/product/juliette-has-a-gun-not-a-perfume-superdose-P459420",
+        "notes": ["incense", "ambergris"],
+        "price": 145,
+        "events": ["daily", "office", "minimalist"],
+        "strength": "light",
+        "adjectives": ["clean", "airy", "transparent"],
+        "gender": "feminine",
+        "type": ["musk"]
+      },
+      {
+        "name": "Bvlgari Le Gemme Ashlemah",
+        "link": "https://www.bulgari.com/en-us/le-gemme-ashlemah-eau-de-parfum-3607342962067",
+        "notes": ["leather", "amber", "violet"],
+        "price": 195,
+        "events": ["special occasion", "night out"],
+        "strength": "light",
+        "adjectives": ["soft", "smooth", "luxurious"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Hermès Un Jardin Sur La Lagune",
+        "link": "https://www.hermes.com/us/en/product/un-jardin-sur-la-lagune-eau-de-toilette-V40507/",
+        "notes": ["tea", "magnolia", "lily"],
+        "price": 120,
+        "events": ["daily", "office", "spring"],
+        "strength": "light",
+        "adjectives": ["airy", "fresh", "peaceful"],
+        "gender": "feminine",
+        "type": ["green"]
+      },
+      {
+        "name": "Diptyque Eau Rose Eau de Parfum",
+        "link": "https://www.diptyqueparis.com/en_us/p/eau-rose-eau-de-parfum.html",
+        "notes": ["amber", "rose", "fruit"],
+        "price": 145,
+        "events": ["romantic", "daily"],
+        "strength": "light",
+        "adjectives": ["elegant", "soft", "modern"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Maison Margiela Replica Whispers in the Library",
+        "link": "https://www.sephora.com/product/replica-whispers-in-the-library-P456993",
+        "notes": ["boozy", "vanilla", "cedar"],
+        "price": 144,
+        "events": ["romantic", "night out"],
+        "strength": "light",
+        "adjectives": ["cozy", "warm", "mysterious"],
+        "gender": "feminine",
+        "type": ["woody"]
+      }
+    ],[
+      {
+        "name": "Parfums de Marly Delina Exclusif",
+        "link": "https://parfums-de-marly.com/products/delina-exclusif",
+        "notes": ["vanilla", "rose", "oud"],
+        "price": 365,
+        "events": ["romantic", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["elegant", "luxurious", "sweet"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Creed Love in White",
+        "link": "https://www.creedboutique.com/products/love-in-white",
+        "notes": ["citrus", "iris", "magnolia"],
+        "price": 430,
+        "events": ["daily", "office", "spring"],
+        "strength": "strong",
+        "adjectives": ["clean", "fresh", "elegant"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Fragrance du Bois Oud Jaune Intense",
+        "link": "https://fragrancedubois.com/products/oud-jaune-intense",
+        "notes": ["oud", "ylang-ylang", "pineapple"],
+        "price": 395,
+        "events": ["special occasion", "night out"],
+        "strength": "strong",
+        "adjectives": ["bold", "tropical", "exotic"],
+        "gender": "feminine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Roja Dove Amber Aoud",
+        "link": "https://rojaparfums.com/products/amber-aoud",
+        "notes": ["incense", "oud", "amber"],
+        "price": 525,
+        "events": ["special occasion", "night out"],
+        "strength": "strong",
+        "adjectives": ["dark", "mysterious", "opulent"],
+        "gender": "feminine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Clive Christian No. 1 for Women",
+        "link": "https://clivechristian.com/products/no-1-feminine",
+        "notes": ["leather", "vanilla", "sandalwood"],
+        "price": 575,
+        "events": ["exclusive events", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["luxurious", "smooth", "elegant"],
+        "gender": "feminine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Boadicea the Victorious Nemer",
+        "link": "https://boadiceaperfume.com/products/nemer",
+        "notes": ["tea", "rose", "oud"],
+        "price": 600,
+        "events": ["romantic", "exclusive"],
+        "strength": "strong",
+        "adjectives": ["exotic", "refined", "warm"],
+        "gender": "feminine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Xerjoff Bouquet Ideale",
+        "link": "https://xerjoff.com/products/bouquet-ideale",
+        "notes": ["amber", "vanilla", "cinnamon"],
+        "price": 310,
+        "events": ["romantic", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["sweet", "warm", "luxurious"],
+        "gender": "feminine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Amouage Love Tuberose",
+        "link": "https://amouage.com/products/love-tuberose",
+        "notes": ["boozy", "tuberose", "whipped cream"],
+        "price": 340,
+        "events": ["romantic", "night out"],
+        "strength": "strong",
+        "adjectives": ["seductive", "sweet", "creamy"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      }
+    ],[
+      {
+        "name": "Maison Francis Kurkdjian Gentle Fluidity Gold",
+        "link": "https://www.franciskurkdjian.com/int-en/p/gentle-fluidity-gold-eau-de-parfum",
+        "notes": ["vanilla", "amber", "juniper berries"],
+        "price": 240,
+        "events": ["romantic", "special occasion"],
+        "strength": "light",
+        "adjectives": ["smooth", "elegant", "soft"],
+        "gender": "feminine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Creed Spring Flower",
+        "link": "https://www.creedboutique.com/products/spring-flower",
+        "notes": ["citrus", "peach", "apple"],
+        "price": 425,
+        "events": ["daily", "spring"],
+        "strength": "light",
+        "adjectives": ["fresh", "youthful", "elegant"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Maison Francis Kurkdjian Oud Satin Mood Eau de Toilette",
+        "link": "https://www.franciskurkdjian.com/int-en/p/oud-satin-mood-eau-de-toilette",
+        "notes": ["oud", "rose", "violet"],
+        "price": 275,
+        "events": ["romantic", "special occasion"],
+        "strength": "light",
+        "adjectives": ["soft", "luxurious", "romantic"],
+        "gender": "feminine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Roja Dove Elixir Pour Femme",
+        "link": "https://rojaparfums.com/products/elixir-pour-femme",
+        "notes": ["incense", "jasmine", "citrus"],
+        "price": 350,
+        "events": ["special occasion", "night out"],
+        "strength": "light",
+        "adjectives": ["airy", "elegant", "mysterious"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Clive Christian X Feminine",
+        "link": "https://clivechristian.com/products/x-feminine",
+        "notes": ["leather", "jasmine", "peach"],
+        "price": 395,
+        "events": ["special occasion", "romantic"],
+        "strength": "light",
+        "adjectives": ["luxurious", "smooth", "refined"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Amouage Reflection Woman",
+        "link": "https://amouage.com/products/reflection-woman",
+        "notes": ["tea", "jasmine", "musk"],
+        "price": 340,
+        "events": ["daily", "romantic"],
+        "strength": "light",
+        "adjectives": ["clean", "fresh", "elegant"],
+        "gender": "feminine",
+        "type": ["floral"]
+      },
+      {
+        "name": "Xerjoff Erba Pura",
+        "link": "https://xerjoff.com/products/erba-pura",
+        "notes": ["amber", "citrus", "musk"],
+        "price": 320,
+        "events": ["romantic", "special occasion", "warm weather"],
+        "strength": ["strong"],
+        "adjectives": ["warm", "sweet", "luxurious"],
+        "gender": "feminine",
+        "type": ["fruity"]
+      }
+    ],
+    [
+      {
+        "name": "Axe Dark Temptation",
+        "link": "https://www.amazon.com/Axe-Temptation-Body-Spray-Ounce/dp/B001E6J18O",
+        "notes": ["vanilla", "chocolate", "spice"],
+        "price": 10,
+        "events": ["daily", "daily", "school"],
+        "strength": "strong",
+        "adjectives": ["sweet", "playful"],
+        "gender": "masculine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Nautica Blue",
+        "link": "https://www.amazon.com/Nautica-Blue-Toilette-Spray-Ounce/dp/B000C1W1NQ",
+        "notes": ["citrus", "pineapple", "musk"],
+        "price": 18,
+        "events": ["daily", "gym", "warm weather"],
+        "strength": "strong",
+        "adjectives": ["fresh", "youthful"],
+        "gender": "masculine",
+        "type": ["aquatic"]
+      },
+      {
+        "name": "Armaf Club de Nuit Intense Man Limited Edition",
+        "link": "https://www.amazon.com/Armaf-Club-Nuit-Intense-Edition/dp/B07H4S3Z2C",
+        "notes": ["oud", "citrus", "birch"],
+        "price": 45,
+        "events": ["romantic", "night out"],
+        "strength": "strong",
+        "adjectives": ["bold", "elegant"],
+        "gender": "masculine",
+        "type": ["woody"]
+      },
+      {
+        "name": "Al Haramain Amber Oud Carbon Edition",
+        "link": "https://www.amazon.com/Al-Haramain-Amber-Oud-Carbon/dp/B08MQC27TX",
+        "notes": ["incense", "amber", "musk"],
+        "price": 50,
+        "events": ["special occasion", "night out"],
+        "strength": "strong",
+        "adjectives": ["bold", "dark", "mysterious"],
+        "gender": "masculine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Rasasi Hawas for Him",
+        "link": "https://www.amazon.com/Rasasi-Hawas-Men-Eau-Parfum/dp/B01ATY3N4A",
+        "notes": ["leather", "cinnamon", "watermelon"],
+        "price": 49,
+        "events": ["romantic", "night out"],
+        "strength": "strong",
+        "adjectives": ["smooth", "sexy"],
+        "gender": "masculine",
+        "type": ["fruity"]
+      },
+      
+      {
+        "name": "Armaf Ventana",
+        "link": "https://www.amazon.com/Armaf-Ventana-Toilette-Spray-Men/dp/B071WQMNQL",
+        "notes": ["amber", "citrus", "musk"],
+        "price": 35,
+        "events": ["office", "daily"],
+        "strength": "strong",
+        "adjectives": ["elegant", "clean"],
+        "gender": "masculine",
+        "type": ["fresh"]
+      },
+      {
+        "name": "Armaf Club De Nuit Urban Elixir",
+        "link": "https://www.amazon.com/Armaf-Club-Nuit-Urban-Elixir/dp/B09V5XW6NZ",
+        "notes": ["boozy", "leather", "amber"],
+        "price": 48,
+        "events": ["night out", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["bold", "sexy", "smooth"],
+        "gender": "masculine",
+        "type": ["spicy"]
+      }
+    ],
+    [
+      {
+        "name": "Adidas Pure Game",
+        "link": "https://www.amazon.com/Adidas-Game-Toilette-Spray-Ounce/dp/B003L0OL2S",
+        "notes": ["vanilla", "grapefruit", "pepper"],
+        "price": 15,
+        "events": ["daily", "daily", "gym"],
+        "strength": "light",
+        "adjectives": ["sporty", "fresh", "daily"],
+        "gender": "masculine",
+        "type": ["woody"]
+      },
+      
+      {
+        "name": "Lattafa Bade'e Al Oud Amethyst",
+        "link": "https://www.amazon.com/Lattafa-Badee-Oud-Amethyst-Unisex/dp/B09MZ1ZK2B",
+        "notes": ["oud", "rose", "amber"],
+        "price": 48,
+        "events": ["daily", "romantic"],
+        "strength": "light",
+        "adjectives": ["smooth", "elegant", "warm"],
+        "gender": "masculine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Al Rehab Sultan",
+        "link": "https://www.amazon.com/Al-Rehab-Sultan-Perfume/dp/B0028N6NOG",
+        "notes": ["incense", "spices", "amber"],
+        "price": 12,
+        "events": ["daily", "spiritual"],
+        "strength": "light",
+        "adjectives": ["calm", "smooth", "soft"],
+        "gender": "masculine",
+        "type": ["spicy"]
+      },
+      {
+        "name": "Antonio Banderas Blue Seduction",
+        "link": "https://www.amazon.com/Antonio-Banderas-Blue-Seduction-Toilette/dp/B0010DWBSK",
+        "notes": ["leather", "melon", "mint"],
+        "price": 25,
+        "events": ["daily", "romantic"],
+        "strength": "light",
+        "adjectives": ["smooth", "fresh", "youthful"],
+        "gender": "masculine",
+        "type": ["aquatic"]
+      },
+      {
+        "name": "Demeter Green Tea",
+        "link": "https://demeterfragrance.com/collections/fragrance/products/green-tea",
+        "notes": ["tea", "green leaves"],
+        "price": 25,
+        "events": ["daily", "office"],
+        "strength": "light",
+        "adjectives": ["clean", "airy", "calm"],
+        "gender": "masculine",
+        "type": ["fresh"]
+      },
+      {
+        "name": "English Laundry Cambridge Knight",
+        "link": "https://www.amazon.com/English-Laundry-Cambridge-Knight-Toilette/dp/B00VSG6PXO",
+        "notes": ["amber", "blackcurrant", "musk"],
+        "price": 40,
+        "events": ["daily", "romantic"],
+        "strength": "light",
+        "adjectives": ["warm", "clean", "soft"],
+        "gender": "masculine",
+        "type": ["fresh"]
+      },
+      {
+        "name": "Kenneth Cole Black",
+        "link": "https://www.amazon.com/Kenneth-Cole-Black-Toilette-Spray/dp/B000BKWFOC",
+        "notes": ["boozy", "mandarin", "musk"],
+        "price": 42,
+        "events": ["night out", "romantic"],
+        "strength": "light",
+        "adjectives": ["smooth", "bold", "refined"],
+        "gender": "masculine",
+        "type": ["woody"]
+      }
+    ],[
+      {
+        "name": "Mercedes-Benz Club Black",
+        "link": "https://www.amazon.com/Mercedes-Benz-Club-Black-Toilette/dp/B01M27XQSP",
+        "notes": ["vanilla", "amber", "benzoin"],
+        "price": 65,
+        "events": ["romantic", "night out"],
+        "strength": "strong",
+        "adjectives": ["warm", "bold", "smooth"],
+        "gender": "masculine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Lacoste L.12.12 Blanc",
+        "link": "https://www.amazon.com/Lacoste-Blanc-Toilette-Spray-Men/dp/B005I6VYMC",
+        "notes": ["citrus", "grapefruit", "rosemary"],
+        "price": 65,
+        "events": ["daily", "office"],
+        "strength": "strong",
+        "adjectives": ["clean", "fresh", "youthful"],
+        "gender": "masculine",
+        "type": ["fresh"]
+      },
+      {
+        "name": "Rasasi La Yuqawam Homme",
+        "link": "https://www.amazon.com/Rasasi-La-Yuqawam-Eau-Parfum/dp/B008P6F5Q2",
+        "notes": ["oud", "leather", "amber"],
+        "price": 95,
+        "events": ["special occasion", "night out"],
+        "strength": "strong",
+        "adjectives": ["bold", "dark", "elegant"],
+        "gender": "masculine",
+        "type": ["woody"]
+      },
+      {
+        "name": "Zara Rich Warm Addictive",
+        "link": "https://www.zara.com/us/en/rich-warm-addictive-edt-p2010.html",
+        "notes": ["incense", "honey", "coconut"],
+        "price": 60,
+        "events": ["night out", "romantic"],
+        "strength": "strong",
+        "adjectives": ["warm", "sweet", "smooth"],
+        "gender": "masculine",
+        "type": ["warm"]
+      },
+      {
+        "name": "John Varvatos Dark Rebel",
+        "link": "https://www.amazon.com/John-Varvatos-Dark-Rebel-Toilette/dp/B0141INX1I",
+        "notes": ["leather", "rum", "spices"],
+        "price": 70,
+        "events": ["night out", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["bold", "rugged", "smoky"],
+        "gender": "masculine",
+        "type": ["leather"]
+      },
+      {
+        "name": "Bentley Intense for Men",
+        "link": "https://www.amazon.com/Bentley-Intense-Men-Parfum-Spray/dp/B00B4XMT6K",
+        "notes": ["tea", "rum", "incense"],
+        "price": 55,
+        "events": ["night out", "romantic"],
+        "strength": "strong",
+        "adjectives": ["rich", "boozy", "elegant"],
+        "gender": "masculine",
+        "type": ["spicy"]
+      },
+      
+      {
+        "name": "Paco Rabanne 1 Million Lucky",
+        "link": "https://www.amazon.com/Paco-Rabanne-Million-Lucky-Toilette/dp/B07BMVJG1L",
+        "notes": ["boozy", "hazelnut", "plum"],
+        "price": 90,
+        "events": ["night out", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["sweet", "playful", "modern"],
+        "gender": "masculine",
+        "type": ["gourmand"]
+      }
+    ],
+    [
+      {
+        "name": "Banana Republic Black Walnut Legend",
+        "link": "https://www.amazon.com/Banana-Republic-Black-Walnut-Legend/dp/B074P5CWQ3",
+        "notes": ["vanilla", "rum", "tobacco"],
+        "price": 60,
+        "events": ["romantic", "daily"],
+        "strength": "light",
+        "adjectives": ["smooth", "warm", "modern"],
+        "gender": "masculine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Abercrombie & Fitch First Instinct Blue",
+        "link": "https://www.fragrancenet.com/fragrances/abercrombie-fitch/first-instinct-blue",
+        "gender": "masculine",
+        "price": 65,
+        "events": ["daily", "gym", "office"],
+        "strength": "light",
+        "notes": ["apple", "citrus", "lavender"],
+        "adjectives": ["clean", "youthful", "fresh"],
+        "type": ["fruity", "fresh"]
+    },{
+      "name": "Paco Rabanne Invictus",
+      "link": "https://www.fragrancenet.com/fragrances/paco-rabanne/invictus",
+      "gender": "masculine",
+      "price": 85,
+      "events": ["gym", "daily", "night out"],
+      "strength": "strong",
+      "notes": ["grapefruit", "marine accord", "ambergris"],
+      "adjectives": ["bold", "fresh", "youthful"],
+      "type": ["fruity", "aquatic"]
+  },
+  
+    
+      {
+        "name": "Mont Blanc Legend Spirit",
+        "link": "https://www.amazon.com/Mont-Blanc-Legend-Spirit-Toilette/dp/B01CJFEPOO",
+        "notes": ["citrus", "grapefruit", "musk"],
+        "price": 80,
+        "events": ["daily", "office", "gym"],
+        "strength": "light",
+        "adjectives": ["fresh", "clean", "youthful", "fruity"],
+        "gender": "masculine",
+        "type": ["fresh"]
+      },
+      {
+        "name": "Lomani Intense Black",
+        "link": "https://www.amazon.com/Lomani-Intense-Black-Toilette-Spray/dp/B00GGWAL8U",
+        "notes": ["oud", "amber", "musk"],
+        "price": 55,
+        "events": ["night out", "special occasion"],
+        "strength": "light",
+        "adjectives": ["smooth", "woody", "warm"],
+        "gender": "masculine",
+        "type": ["woody"]
+      },
+      {
+        "name": "Calvin Klein Euphoria Men",
+        "link": "https://www.amazon.com/Calvin-Klein-Euphoria-Men-Toilette/dp/B000X9NC6G",
+        "notes": ["incense", "ginger", "pepper"],
+        "price": 65,
+        "events": ["romantic", "night out"],
+        "strength": "light",
+        "adjectives": ["warm", "seductive", "modern"],
+        "gender": "masculine",
+        "type": ["spicy"]
+      },
+      {
+        "name": "Baldessarini Ambre",
+        "link": "https://www.amazon.com/Baldessarini-Ambre-Toilette-Spray-Men/dp/B0012O3UNQ",
+        "notes": ["leather", "amber", "mandarin"],
+        "price": 95,
+        "events": ["special occasion", "night out"],
+        "strength": "light",
+        "adjectives": ["elegant", "smooth", "rich"],
+        "gender": "masculine",
+        "type": ["woody"]
+      },
+      {
+        "name": "Davidoff Cool Water Intense",
+        "link": "https://www.amazon.com/Davidoff-Cool-Water-Intense-Toilette/dp/B07T88PFXT",
+        "notes": ["tea", "mango", "amber"],
+        "price": 70,
+        "events": ["daily", "gym", "office"],
+        "strength": "light",
+        "adjectives": ["clean", "fresh", "tropical"],
+        "gender": "masculine",
+        "type": ["aquatic"]
+      },
+      {
+        "name": "Hugo Boss Bottled Unlimited",
+        "link": "https://www.amazon.com/Hugo-Boss-Bottled-Unlimited-Toilette/dp/B00HNSMK1E",
+        "notes": ["amber", "mint", "pineapple"],
+        "price": 85,
+        "events": ["daily", "office"],
+        "strength": "light",
+        "adjectives": ["bright", "fresh", "youthful"],
+        "gender": "masculine",
+        "type": ["fresh"]
+      },
+      {
+        "name": "Azzaro Visit for Men",
+        "link": "https://www.amazon.com/Azzaro-Visit-Men-Toilette-Spray/dp/B000P27J7M",
+        "notes": ["boozy", "incense", "nutmeg"],
+        "price": 70,
+        "events": ["night out", "romantic"],
+        "strength": "light",
+        "adjectives": ["mysterious", "modern", "elegant"],
+        "gender": "masculine",
+        "type": ["spicy"]
+      }
+    ],[
+      {
+        "name": "Jean Paul Gaultier Ultra Male",
+        "link": "https://www.sephora.com/product/ultra-male-eau-de-toilette-P404401",
+        "notes": ["vanilla", "pear", "cinnamon"],
+        "price": 125,
+        "events": ["night out", "romantic"],
+        "strength": "strong",
+        "adjectives": ["sweet", "playful", "intense"],
+        "gender": "masculine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Dior Sauvage Elixir",
+        "link": "https://www.sephora.com/product/sauvage-elixir-P480659",
+        "notes": ["citrus", "lavender", "amber"],
+        "price": 165,
+        "events": ["daily", "night out"],
+        "strength": "strong",
+        "adjectives": ["bold", "fresh", "masculine"],
+        "gender": "masculine",
+        "type": ["spicy"]
+      },
+      {
+        "name": "Maison Alhambra Woody Oud",
+        "link": "https://www.amazon.com/Maison-Alhambra-Oud-Eau-Parfum/dp/B0BLT5YT96",
+        "notes": ["oud", "sandalwood", "amber"],
+        "price": 115,
+        "events": ["special occasion", "night out"],
+        "strength": "strong",
+        "adjectives": ["bold", "smooth", "luxurious"],
+        "gender": "masculine",
+        "type": ["woody"]
+      },
+      {
+        "name": "Tom Ford Noir Extreme",
+        "link": "https://www.sephora.com/product/noir-extreme-eau-de-parfum-P392131",
+        "notes": ["incense", "kulfi", "amber"],
+        "price": 165,
+        "events": ["romantic", "night out"],
+        "strength": "strong",
+        "adjectives": ["warm", "sensual", "exotic"],
+        "gender": "masculine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Givenchy Gentleman EDP Reserve Privée",
+        "link": "https://www.sephora.com/product/gentleman-reserve-privee-eau-de-parfum-P480691",
+        "notes": ["leather", "chestnut", "iris"],
+        "price": 150,
+        "events": ["romantic", "night out"],
+        "strength": "strong",
+        "adjectives": ["smooth", "rich", "elegant"],
+        "gender": "masculine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Creed Viking",
+        "link": "https://www.creedboutique.com/products/viking",
+        "notes": ["tea", "peppermint", "sandalwood"],
+        "price": 180,
+        "events": ["daily", "office"],
+        "strength": "strong",
+        "adjectives": ["fresh", "earthy", "bold"],
+        "gender": "masculine",
+        "type": ["earthy"]
+      },
+      {
+        "name": "Mugler Cologne Come Together",
+        "link": "https://www.muglerusa.com/fragrance/mugler-cologne-come-together",
+        "notes": ["green notes", "white musk", "neroli"],
+        "price": 85,
+        "events": ["daily", "office", "warm weather"],
+        "strength": "light",
+        "adjectives": ["soapy", "clean", "refreshing"],
+        "gender": "unisex",
+        "type": ["soapy"]
+    },
+    {
+        "name": "Chanel Platinum Égoïste",
+        "link": "https://www.chanel.com/us/fragrance/p/platinum-egoiste/",
+        "notes": ["lavender", "rosemary", "geranium", "oakmoss"],
+        "price": 130,
+        "events": ["daily", "office"],
+        "strength": "strong",
+        "adjectives": ["earthy", "herbal", "classic"],
+        "gender": "masculine",
+        "type": ["earthy"]
+    },
+    {
+        "name": "Paco Rabanne Invictus Aqua",
+        "link": "https://www.pacorabanne.com/us/en/fragrances/invictus-aqua",
+        "notes": ["marine", "violet leaf", "ambergris", "grapefruit"],
+        "price": 110,
+        "events": ["warm weather", "daily", "gym"],
+        "strength": "strong",
+        "adjectives": ["marine", "watery", "fresh"],
+        "gender": "masculine",
+        "type": ["aquatic"]
+    },
+    {
+        "name": "Dolce & Gabbana Light Blue Forever",
+        "link": "https://www.dolcegabbana.com/light-blue-forever",
+        "notes": ["grapefruit", "bergamot", "ozone", "vetiver"],
+        "price": 105,
+        "events": ["warm weather", "daily", "warm weather"],
+        "strength": "light",
+        "adjectives": ["bright", "zesty", "fresh"],
+        "gender": "masculine",
+        "type": ["fresh"]
+    },
+    {
+        "name": "Tommy Hilfiger Tommy Summer",
+        "link": "https://www.tommy.com/tommy-summer",
+        "notes": ["mint", "basil", "lavender", "citrus"],
+        "price": 70,
+        "events": ["daily", "warm weather", "warm weather"],
+        "strength": "light",
+        "adjectives": ["green", "herbal", "fresh"],
+        "gender": "masculine",
+        "type": ["green"]
+    },
+    {
+        "name": "Maison Margiela Replica Under The Lemon Trees",
+        "link": "https://www.maisonmargiela-fragrances.us/replica/under-the-lemon-trees",
+        "notes": ["lemon", "petitgrain", "green tea", "cedar"],
+        "price": 144,
+        "events": ["daily", "warm weather"],
+        "strength": "light",
+        "adjectives": ["citrusy", "clean", "green"],
+        "gender": "unisex",
+        "type": ["citrus"]
+    },
+    {
+        "name": "Cartier Declaration",
+        "link": "https://www.cartier.com/en-us/fragrances/declaration",
+        "notes": ["bitter orange", "cardamom", "cedar", "birch"],
+        "price": 125,
+        "events": ["office", "daily"],
+        "strength": "strong",
+        "adjectives": ["spicy-fresh", "dry", "clean"],
+        "gender": "masculine",
+        "type": ["earthy"]
+    },
+   
+    
+    {
+        "name": "Calvin Klein CK Everyone",
+        "link": "https://www.calvinklein.us/en/ck-everyone-eau-de-toilette-35753806",
+        "notes": ["orange oil", "ginger", "tea", "cedarwood"],
+        "price": 75,
+        "events": ["daily", "daily"],
+        "strength": "light",
+        "adjectives": ["clean", "tea", "bright"],
+        "gender": "unisex",
+        "type": ["tea"]
+    },
+    {
+      "name": "Dolce & Gabbana L'Imperatrice 3",
+      "link": "https://www.dolcegabbana.com/limperatrice",
+      "notes": ["watermelon", "kiwi", "pink cyclamen", "musk"],
+      "price": 85,
+      "events": ["daily", "spring", "warm weather"],
+      "strength": "light",
+      "adjectives": ["playful", "juicy", "refreshing"],
+      "gender": "feminine",
+      "type": ["fruity"]
+  },
+  {
+      "name": "Escada Miami Blossom",
+      "link": "https://www.escada-fragrances.com/miami-blossom",
+      "notes": ["pineapple", "watermelon", "tiare flower", "sandalwood"],
+      "price": 70,
+      "events": ["warm weather", "warm weather"],
+      "strength": "light",
+      "adjectives": ["tropical", "bright", "fruity"],
+      "gender": "feminine",
+      "type": ["fruity"]
+  },
+  {
+      "name": "Burberry Brit Sheer",
+      "link": "https://us.burberry.com/brit-sheer-eau-de-toilette-p39309311",
+      "notes": ["lychee", "pineapple leaf", "mandarin", "white musk"],
+      "price": 75,
+      "events": ["daily", "office"],
+      "strength": "light",
+      "adjectives": ["fresh", "clean", "fruity"],
+      "gender": "feminine",
+      "type": ["fruity"]
+  },
+  {
+      "name": "Juicy Couture Viva La Juicy",
+      "link": "https://www.juicycouture.com/viva-la-juicy",
+      "notes": ["wild berries", "mandarin", "honeysuckle", "caramel"],
+      "price": 80,
+      "events": ["night out", "daily"],
+      "strength": "strong",
+      "adjectives": ["sweet", "flirty", "fruity"],
+      "gender": "feminine",
+      "type": ["fruity"]
+  },
+  {
+      "name": "Katy Perry Purr",
+      "link": "https://www.fragrantica.com/perfume/Katy-Perry/Purr-10129.html",
+      "notes": ["peach", "apple", "bamboo", "coconut"],
+      "price": 55,
+      "events": ["daily", "daily"],
+      "strength": "light",
+      "adjectives": ["playful", "sweet", "juicy"],
+      "gender": "feminine",
+      "type": ["fruity"]
+  },
+  {
+      "name": "DKNY Be Delicious",
+      "link": "https://www.dkny.com/be-delicious",
+      "notes": ["green apple", "cucumber", "magnolia", "amber"],
+      "price": 70,
+      "events": ["daily", "office"],
+      "strength": "light",
+      "adjectives": ["crisp", "green", "refreshing"],
+      "gender": "feminine",
+      "type": ["fruity"]
+  },
+  {
+      "name": "Moschino I Love Love",
+      "link": "https://www.moschino.com/us/en/women/fragrances/i-love-love-eau-de-toilette",
+      "notes": ["orange", "grapefruit", "red currant", "cinnamon"],
+      "price": 65,
+      "events": ["daily", "spring", "daily"],
+      "strength": "light",
+      "adjectives": ["youthful", "bright", "energetic"],
+      "gender": "feminine",
+      "type": ["fruity"]
+  },
+  {
+      "name": "Nina Ricci Nina",
+      "link": "https://www.ninaricci.com/nina",
+      "notes": ["lime", "apple", "praline", "peony"],
+      "price": 75,
+      "events": ["daily", "romantic"],
+      "strength": "light",
+      "adjectives": ["romantic", "sweet", "fruity"],
+      "gender": "feminine",
+      "type": ["fruity"]
+  },
+  {
+      "name": "Jo Malone English Pear & Freesia",
+      "link": "https://www.jomalone.com/product/25953/10454/fragrances/english-pear-freesia",
+      "notes": ["pear", "melon", "rose", "amber"],
+      "price": 145,
+      "events": ["daily", "office"],
+      "strength": "light",
+      "adjectives": ["clean", "crisp", "elegant"],
+      "gender": "feminine",
+      "type": ["fruity"]
+  },
+  {
+      "name": "Philosophy Falling in Love",
+      "link": "https://www.philosophy.com/falling-in-love.html",
+      "notes": ["blackberry", "musk", "vanilla", "jasmine"],
+      "price": 60,
+      "events": ["daily", "daily"],
+      "strength": "light",
+      "adjectives": ["soft", "romantic", "fruity"],
+      "gender": "feminine",
+      "type": ["fruity"]
+  },
+  {
+    "name": "Tom Ford Lost Cherry",
+    "link": "https://www.tomford.com/beauty/fragrance/lost-cherry",
+    "notes": ["black cherry", "bitter almond", "liquor", "turkish rose", "peru balsam", "tonka bean"],
+    "price": 395,
+    "events": ["romantic", "special occasion", "night out"],
+    "strength": "strong",
+    "adjectives": ["seductive", "boozy", "rich"],
+    "gender": "unisex",
+    "type": ["fruity"]
+},
+{
+    "name": "Mancera Wild Cherry",
+    "link": "https://www.mancera.com/en/product/wild-cherry",
+    "notes": ["black cherry", "bergamot", "lemon", "iris", "patchouli", "white musk"],
+    "price": 160,
+    "events": ["special occasion", "date night"],
+    "strength": "strong",
+    "adjectives": ["bright", "bold", "luxurious"],
+    "gender": "unisex",
+    "type": ["fruity"]
+},
+
+{
+    "name": "Christian Dior Dolce Vita",
+    "link": "https://www.dior.com/en_us/products/beauty-Y0996432-dolce-vita-eau-de-toilette",
+    "notes": ["peach", "apricot", "plum", "rose", "cinnamon", "sandalwood", "vanilla"],
+    "price": 125,
+    "events": ["special occasion", "romantic"],
+    "strength": "strong",
+    "adjectives": ["romantic", "warm", "rich"],
+    "gender": "feminine",
+    "type": ["fruity"]
+},
+{
+    "name": "Escada Tropical Punch",
+    "link": "https://www.fragrantica.com/perfume/Escada/Tropical-Punch-1983.html",
+    "notes": ["passionfruit", "pineapple", "blackcurrant", "papaya", "peach", "mango"],
+    "price": 85,
+    "events": ["warm weather", "warm weather", "daily"],
+    "strength": "light",
+    "adjectives": ["tropical", "sweet", "fun"],
+    "gender": "feminine",
+    "type": ["fruity"]
+},
+{
+    "name": "Byredo Pulp",
+    "link": "https://www.byredo.com/us_en/pulp-eau-de-parfum-100ml",
+    "notes": ["fig", "blackcurrant", "apple", "tiare flower", "peach", "praline", "cedarwood"],
+    "price": 290,
+    "events": ["special occasion", "romantic"],
+    "strength": "strong",
+    "adjectives": ["exotic", "bold", "juicy"],
+    "gender": "unisex",
+    "type": ["fruity"]
+},
+{
+  "name": "Ermenegildo Zegna Essenze Italian Bergamot",
+  "link": "https://www.zegna.com/us/en/fragrances/essenze/italian-bergamot",
+  "notes": ["bergamot", "rosemary", "neroli", "vetiver", "cedarwood"],
+  "price": 210,
+  "events": ["daily", "office", "spring", "warm weather"],
+  "strength": "light",
+  "adjectives": ["green", "clean", "elegant"],
+  "gender": "masculine",
+  "type": ["woody"]
+},
+{
+  "name": "Maison Margiela Replica By The Fireplace",
+  "link": "https://www.maisonmargiela-fragrances.us/replica/by-the-fireplace",
+  "notes": ["clove", "chestnut", "pink pepper", "vanilla", "guaiac wood"],
+  "price": 155,
+  "events": ["romantic", "office", "night out", "fall", "winter"],
+  "strength": "strong",
+  "adjectives": ["warm", "smoky", "inviting"],
+  "gender": "unisex",
+  "type": ["woody"]
+},
+
+{
+  "name": "Roja Parfums Amber Aoud",
+  "link": "https://www.rojaparfums.com/amber-aoud-parfum",
+  "notes": ["bergamot", "fig", "jasmine", "rose", "oud", "sandalwood", "ambergris"],
+  "price": 575,
+  "events": ["special occasion", "night out", "formal", "romantic", "winter"],
+  "strength": "strong",
+  "adjectives": ["exotic", "rich", "opulent"],
+  "gender": "unisex",
+  "type": ["woody"]
+},
+{
+  "name": "Hermès Terre d'Hermès Eau Givrée",
+  "link": "https://www.hermes.com/us/en/product/terre-dhermes-eau-givree-eau-de-parfum-V47014/",
+  "notes": ["citron", "juniper berry", "timut pepper", "cedar", "mineral notes"],
+  "price": 150,
+  "events": ["daily", "office", "spring", "warm weather"],
+  "strength": "light",
+  "adjectives": ["crisp", "clean", "green"],
+  "gender": "masculine",
+  "type": ["woody"]
+},
+{
+  "name": "Tauer Perfumes L'Air du Désert Marocain",
+  "link": "https://tauerperfumes.com/lair-du-desert-marocain",
+  "notes": ["coriander", "cumin", "amber", "cedarwood", "vetiver", "frankincense"],
+  "price": 150,
+  "events": ["night out", "romantic", "fall", "winter", "special occasion"],
+  "strength": "strong",
+  "adjectives": ["dry", "spicy", "exotic"],
+  "gender": "unisex",
+  "type": ["woody"]
+},
+{
+  "name": "Killian Straight to Heaven Extreme",
+  "link": "https://www.bykilian.com/straight-to-heaven-extreme",
+  "notes": ["rum", "cedarwood", "vanilla", "patchouli", "nutmeg"],
+  "price": 450,
+  "events": ["night out", "romantic", "winter", "special occasion"],
+  "strength": "strong",
+  "adjectives": ["boozy", "warm", "sensual"],
+  "gender": "unisex",
+  "type": ["woody"]
+},
+{
+  "name": "Yves Saint Laurent Tuxedo",
+  "link": "https://www.yslbeautyus.com/fragrance/le-vestiaire-des-parfums/tuxedo",
+  "notes": ["pink pepper", "patchouli", "ambergris", "vanilla"],
+  "price": 275,
+  "events": ["romantic", "night out", "special occasion"],
+  "strength": "strong",
+  "adjectives": ["spicy", "sweet", "elegant"],
+  "gender": "unisex",
+  "type": ["spicy"]
+},
+{
+  "name": "Maison Francis Kurkdjian Grand Soir",
+  "link": "https://www.maisonfranciskurkdjian.com/en-us/p/grand-soir",
+  "notes": ["amber", "labdanum", "tonka bean", "vanilla", "benzoin"],
+  "price": 240,
+  "events": ["special occasion", "night out", "formal"],
+  "strength": "strong",
+  "adjectives": ["warm", "resinous", "luxurious"],
+  "gender": "unisex",
+  "type": ["spicy"]
+},
+{
+  "name": "Parfums de Marly Carlisle",
+  "link": "https://parfums-de-marly.com/products/carlisle",
+  "notes": ["nutmeg", "green apple", "tonka bean", "patchouli", "vanilla"],
+  "price": 350,
+  "events": ["romantic", "fall", "special occasion"],
+  "strength": "strong",
+  "adjectives": ["sweet", "warm", "gourmand"],
+  "gender": "masculine",
+  "type": ["spicy"]
+},
+
+{
+  "name": "Initio Parfums Privés Side Effect",
+  "link": "https://www.initio-parfums.com/en/fragrances/side-effect",
+  "notes": ["rum", "cinnamon", "tobacco", "vanilla", "sandalwood"],
+  "price": 325,
+  "events": ["night out", "winter", "romantic"],
+  "strength": "strong",
+  "adjectives": ["boozy", "sweet", "spicy"],
+  "gender": "unisex",
+  "type": ["spicy"]
+},
+{
+  "name": "Dior Fahrenheit",
+  "link": "https://www.dior.com/en_us/products/beauty-Y0601204-fahrenheit-eau-de-toilette",
+  "notes": ["nutmeg", "leather", "sandalwood", "violet leaf", "amber"],
+  "price": 110,
+  "events": ["daily", "night out", "fall"],
+  "strength": "strong",
+  "adjectives": ["spicy", "masculine", "classic"],
+  "gender": "masculine",
+  "type": ["spicy"]
+},
+{
+  "name": "Nishane Ani",
+  "link": "https://www.nishane.com/ani",
+  "notes": ["ginger", "bergamot", "blackcurrant", "cardamom", "vanilla", "ambergris"],
+  "price": 310,
+  "events": ["romantic", "date night", "fall", "special occasion"],
+  "strength": "strong",
+  "adjectives": ["sweet", "warm", "spicy"],
+  "gender": "unisex",
+  "type": ["spicy"]
+},
+{
+  "name": "Serge Lutens Ambre Sultan",
+  "link": "https://www.sergelutens.com/ambre-sultan",
+  "notes": ["amber", "myrrh", "coriander", "bay leaf", "sandalwood", "resins"],
+  "price": 150,
+  "events": ["special occasion", "fall", "winter"],
+  "strength": "strong",
+  "adjectives": ["resinous", "rich", "spicy"],
+  "gender": "unisex",
+  "type": ["spicy"]
+},
+
+{
+  "name": "Xerjoff Naxos",
+  "link": "https://xerjoff.com/product/naxos/",
+  "notes": ["honey", "tobacco", "cinnamon", "tonka bean", "vanilla", "citrus"],
+  "price": 330,
+  "events": ["night out", "special occasion", "romantic"],
+  "strength": "strong",
+  "adjectives": ["sweet", "luxurious", "masculine"],
+  "gender": "masculine",
+  "type": ["sweet"]
+},
+{
+  "name": "MFK Gentle Fluidity Gold",
+  "link": "https://www.maisonfranciskurkdjian.com/en-us/p/gentle-fluidity-gold",
+  "notes": ["vanilla", "amber", "juniper berries", "nutmeg", "musk"],
+  "price": 240,
+  "events": ["date night", "daily", "special occasion"],
+  "strength": "moderate",
+  "adjectives": ["sweet", "elegant", "unisex"],
+  "gender": "unisex",
+  "type": ["sweet"]
+},
+{
+  "name": "Carolina Herrera CH Men Prive",
+  "link": "https://www.carolinaherrera.com/us/en/fragrances/ch-men-prive",
+  "notes": ["whiskey", "tonka bean", "leather", "cardamom", "benzoin"],
+  "price": 110,
+  "events": ["night out", "romantic", "winter"],
+  "strength": "strong",
+  "adjectives": ["sweet", "boozy", "masculine"],
+  "gender": "masculine",
+  "type": ["sweet"]
+},
+
+{
+  "name": "Nishane Ani X",
+  "link": "https://nishane.com/ani-x",
+  "notes": ["ginger", "vanilla", "blackcurrant", "cardamom", "benzoin", "ambergris"],
+  "price": 410,
+  "events": ["special occasion", "romantic", "winter"],
+  "strength": "strong",
+  "adjectives": ["sweet", "luxurious", "powerful"],
+  "gender": "unisex",
+  "type": ["sweet"]
+},
+{
+  "name": "Narciso Rodriguez For Her EDT",
+  "link": "https://narcisorodriguez.com/fragrance/for-her-edt",
+  "notes": ["musk", "orange blossom", "amber", "osmanthus", "vetiver"],
+  "price": 115,
+  "events": ["daily", "office", "romantic"],
+  "strength": "moderate",
+  "adjectives": ["airy", "powdery", "soft"],
+  "gender": "feminine",
+  "type": ["airy"]
+},
+{
+  "name": "Etat Libre d’Orange Remarkable People",
+  "link": "https://www.etatlibredorange.com/products/remarkable-people",
+  "notes": ["amber", "spice", "grapefruit"],
+  "price": 135,
+  "events": ["cold weather", "special occasion"],
+  "strength": "strong",
+  "adjectives": ["bold", "warm", "spicy"],
+  "gender": "unisex",
+  "type": ["floral", "spicy"]
+},
+{
+  "name": "Maison Louis Marie No.04 Bois de Balincourt",
+  "link": "https://www.maisonlouismarie.com/products/no-04-bois-de-balincourt-eau-de-parfum",
+  "notes": ["sandalwood", "cedarwood", "amber"],
+  "price": 85,
+  "events": ["cold weather", "daily"],
+  "strength": "light",
+  "adjectives": ["cozy", "clean", "earthy"],
+  "gender": "unisex",
+  "type": ["floral", "woody"]
+},
+
+
+{
+  "name": "Escentric Molecules Molecule 01",
+  "link": "https://www.escentric.com/collections/molecule-01",
+  "notes": ["iso e super"],
+  "price": 150,
+  "events": ["daily", "office", "daily"],
+  "strength": "light",
+  "adjectives": ["woody", "minimalist", "airy"],
+  "gender": "unisex",
+  "type": ["airy"]
+},
+{
+  "name": "Clean Reserve Skin",
+  "link": "https://www.cleanbeauty.com/products/clean-reserve-skin",
+  "notes": ["salted praline", "tonka bean", "leather", "musk", "freesia"],
+  "price": 110,
+  "events": ["daily", "daily", "romantic"],
+  "strength": "moderate",
+  "adjectives": ["soft", "skin-like", "airy"],
+  "gender": "unisex",
+  "type": ["airy"]
+},
+{
+  "name": "Bvlgari Omnia Crystalline",
+  "link": "https://www.bulgari.com/en-us/omnia-crystalline",
+  "notes": ["bamboo", "pear", "lotus flower", "balsa wood", "oakmoss"],
+  "price": 100,
+  "events": ["daily", "spring", "office"],
+  "strength": "light",
+  "adjectives": ["fresh", "delicate", "airy"],
+  "gender": "feminine",
+  "type": ["airy"]
+},
+{
+  "name": "Chanel No. 5 L'Eau",
+  "link": "https://www.chanel.com/us/fragrance/p/no-5-leau-eau-de-toilette-spray/",
+  "notes": ["aldehydes", "lemon", "rose", "cedar", "musk"],
+  "price": 150,
+  "events": ["office", "special occasion", "daily"],
+  "strength": "moderate",
+  "adjectives": ["soapy", "clean", "airy"],
+  "gender": "feminine",
+  "type": ["airy"]
+},
+{
+  "name": "Maison Margiela Replica Bubble Bath",
+  "link": "https://www.maisonmargiela-fragrances.us/replica/bubble-bath",
+  "notes": ["soap bubbles", "lavender", "coconut", "musk", "bergamot"],
+  "price": 155,
+  "events": ["daily", "daily", "spring"],
+  "strength": "light",
+  "adjectives": ["soapy", "clean", "relaxing"],
+  "gender": "unisex",
+  "type": ["airy"]
+},
+{
+  "name": "Dolce & Gabbana Light Blue Eau Intense Pour Homme",
+  "link": "https://www.dolcegabbana.com/light-blue-eau-intense-pour-homme",
+  "notes": ["mandarin", "grapefruit", "juniper", "amberwood", "musk"],
+  "price": 110,
+  "events": ["daily", "warm weather", "office"],
+  "strength": "moderate",
+  "adjectives": ["fresh", "fresh", "airy"],
+  "gender": "masculine",
+  "type": ["airy"]
+},
+{
+  "name": "Hermès Un Jardin Sur Le Nil",
+  "link": "https://www.hermes.com/us/en/product/un-jardin-sur-le-nil-eau-de-toilette-V47009/",
+  "notes": ["green mango", "lotus", "incense", "calamus", "sycamore wood"],
+  "price": 150,
+  "events": ["daily", "spring", "warm weather"],
+  "strength": "light",
+  "adjectives": ["green", "watery", "airy"],
+  "gender": "unisex",
+  "type": ["airy"]
+},{
+  "name": "Maison Francis Kurkdjian À La Rose",
+  "link": "https://www.maisonfranciskurkdjian.com/en-us/p/a-la-rose",
+  "notes": ["damask rose", "grasse rose", "pear", "lychee", "violet", "musk"],
+  "price": 275,
+  "events": ["romantic", "wedding", "spring", "daily"],
+  "strength": "moderate",
+  "adjectives": ["feminine", "romantic", "fresh"],
+  "gender": "feminine",
+  "type": ["floral"]
+},
+{
+  "name": "Frederic Malle Carnal Flower",
+  "link": "https://www.fredericmalle.com/product/19557/41945/perfume/carnal-flower/by-dominique-ropion",
+  "notes": ["tuberose", "jasmine", "ylang-ylang", "eucalyptus", "musk"],
+  "price": 420,
+  "events": ["romantic", "special occasion", "date night"],
+  "strength": "strong",
+  "adjectives": ["white floral", "sensual", "rich"],
+  "gender": "feminine",
+  "type": ["floral"]
+},
+{
+  "name": "Chanel No. 19",
+  "link": "https://www.chanel.com/us/fragrance/p/no-19-eau-de-parfum-spray/",
+  "notes": ["galbanum", "iris", "rose", "vetiver", "oakmoss"],
+  "price": 150,
+  "events": ["daily", "office", "spring"],
+  "strength": "moderate",
+  "adjectives": ["green", "powdery", "elegant"],
+  "gender": "feminine",
+  "type": ["floral"]
+},
+{
+  "name": "Prada Infusion d'Iris",
+  "link": "https://www.prada.com/us/en/women/fragrances/infusion-d-iris.html",
+  "notes": ["iris", "neroli", "cedarwood", "benzoin", "mandarin"],
+  "price": 130,
+  "events": ["daily", "office", "romantic"],
+  "strength": "moderate",
+  "adjectives": ["powdery", "clean", "airy"],
+  "gender": "feminine",
+  "type": ["floral"]
+},
+{
+  "name": "Tom Ford Rose Prick",
+  "link": "https://www.tomford.com/fragrance/rose-prick",
+  "notes": ["bulgarian rose", "turkish rose", "patchouli", "pepper", "tonka bean"],
+  "price": 375,
+  "events": ["romantic", "special occasion", "night out"],
+  "strength": "strong",
+  "adjectives": ["dark", "rich", "sensual"],
+  "gender": "unisex",
+  "type": ["floral"]
+},
+{
+  "name": "Amouage Jubilation 25 (Women)",
+  "link": "https://www.amouage.com/collections/jubilation-25",
+  "notes": ["rose", "ylang-ylang", "myrrh", "ambergris", "labdanum"],
+  "price": 320,
+  "events": ["special occasion", "formal", "winter"],
+  "strength": "strong",
+  "adjectives": ["opulent", "sweet floral", "resinous"],
+  "gender": "feminine",
+  "type": ["floral"]
+},
+{
+  "name": "Dior Homme Intense",
+  "link": "https://www.dior.com/en_us/products/beauty-Y0620003-dior-homme-intense",
+  "notes": ["iris", "ambrette", "cedarwood", "vetiver", "musk"],
+  "price": 125,
+  "events": ["romantic", "night out", "winter"],
+  "strength": "strong",
+  "adjectives": ["powdery", "elegant", "masculine"],
+  "gender": "masculine",
+  "type": ["floral", "powdery", "woody"]
+},
+{
+  "name": "Creed Love In White",
+  "link": "https://www.creedboutique.com/products/love-in-white",
+  "notes": ["magnolia", "orange zest", "iris", "rice husk", "ambergris", "vanilla"],
+  "price": 350,
+  "events": ["daily", "wedding", "spring"],
+  "strength": "moderate",
+  "adjectives": ["soft", "white floral", "romantic"],
+  "gender": "feminine",
+  "type": ["floral"]
+},
+{
+  "name": "Issey Miyake L'Eau d'Issey Pour Homme",
+  "link": "https://www.isseymiyakeparfums.com/en/fragrances/issey-pour-homme",
+  "notes": ["yuzu", "cinnamon", "lotus", "nutmeg", "sandalwood"],
+  "price": 100,
+  "events": ["daily", "office", "warm weather"],
+  "strength": "light",
+  "adjectives": ["fresh", "clean", "masculine floral"],
+  "gender": "masculine",
+  "type": ["floral"]
+},{
+  "name": "Memo African Leather",
+  "link": "https://www.memoparis.com/products/african-leather",
+  "notes": ["cardamom", "cumin", "leather", "vetiver", "saffron"],
+  "price": 300,
+  "events": ["special occasion", "night out", "winter"],
+  "strength": "strong",
+  "adjectives": ["spicy", "leathery", "dark"],
+  "gender": "unisex",
+  "type": ["dark"]
+},
+{
+  "name": "Roja Enigma Parfum Cologne",
+  "link": "https://rojaparfums.com/products/enigma-parfum-cologne",
+  "notes": ["cognac", "tobacco", "benzoin", "vanilla", "ginger"],
+  "price": 425,
+  "events": ["night out", "romantic", "special occasion"],
+  "strength": "strong",
+  "adjectives": ["boozy", "sweet", "dark"],
+  "gender": "masculine",
+  "type": ["dark"]
+},
+{
+  "name": "Serge Lutens Chergui",
+  "link": "https://www.sergelutens.com/collections/fragrances/products/chergui",
+  "notes": ["tobacco leaf", "honey", "iris", "amber", "incense"],
+  "price": 150,
+  "events": ["fall", "winter", "romantic"],
+  "strength": "strong",
+  "adjectives": ["sweet", "smoky", "dark"],
+  "gender": "unisex",
+  "type": ["dark"]
+},
+
+{
+  "name": "Amouage Interlude Black Iris",
+  "link": "https://www.amouage.com/collections/interlude-black-iris",
+  "notes": ["smoke", "myrrh", "leather", "oud", "orris", "amber"],
+  "price": 340,
+  "events": ["night out", "winter", "special occasion"],
+  "strength": "strong",
+  "adjectives": ["smoky", "intense", "dark"],
+  "gender": "masculine",
+  "type": ["dark"]
+},
+{
+  "name": "Jo Malone London Oud & Bergamot Intense",
+  "link": "https://www.jomalone.com/wood-intense",
+  "notes": ["oud", "citrus", "musky"],
+  "price": 130,
+  "events": ["office", "night out"],
+  "strength": "strong",
+  "adjectives": ["intriguing", "sophisticated"],
+  "gender": "masculine",
+  "type": ["fresh", "woody"]
+},
+
+{
+  "name": "Amouage Interlude Woman",
+  "link": "https://www.amouage.com/products/interlude-woman-eau-de-parfum",
+  "notes": ["incense", "amber", "opoponax"],
+  "price": 145,
+  "events": ["cold weather", "night out"],
+  "strength": "strong",
+  "adjectives": ["mysterious", "bold", "opulent"],
+  "gender": "feminine",
+  "type": ["fresh", "woody"]
+},
+
+{
+  "name": "Tom Ford Noir Extreme",
+  "link": "https://www.tomford.com/fragrance/noir-extreme",
+  "notes": ["cardamom", "kulfi accord", "amber", "woodsy notes", "vanilla"],
+  "price": 175,
+  "events": ["romantic", "night out", "winter"],
+  "strength": "strong",
+  "adjectives": ["sweet", "ambery", "dark"],
+  "gender": "masculine",
+  "type": ["dark"]
+},
+{
+  "name": "Diptyque Volutes",
+  "link": "https://www.diptyqueparis.com/en_us/p/volutes-eau-de-toilette.html",
+  "notes": ["tobacco", "iris", "myrrh", "honey", "benzoin"],
+  "price": 175,
+  "events": ["fall", "winter", "daily", "romantic"],
+  "strength": "moderate",
+  "adjectives": ["tobacco", "sweet", "dark"],
+  "gender": "unisex",
+  "type": ["dark"]
+},
+
+
+
+
+
+
+  
+    
+      {
+        "name": "Parfums de Marly Herod",
+        "link": "https://parfums-de-marly.com/products/herod",
+        "notes": ["amber", "tobacco", "cinnamon"],
+        "price": 199,
+        "events": ["special occasion", "night out"],
+        "strength": "strong",
+        "adjectives": ["warm", "rich", "luxurious"],
+        "gender": "masculine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Giorgio Armani Acqua di Gio (Original EDT)",
+        "link": "https://www.giorgioarmanibeauty-usa.com/fragrances/acqua-di-gio-for-men",
+        "notes": ["bergamot", "neroli", "rosemary", "jasmine"],
+        "price": 110,
+        "events": ["daily", "office"],
+        "strength": "light",
+        "adjectives": ["clean", "herbal", "fresh"],
+        "gender": "masculine",
+        "type": ["earthy"]
+    },
+   
+    {
+        "name": "Yves Saint Laurent Y Eau de Parfum",
+        "link": "https://www.yslbeautyus.com/fragrance/y/y-eau-de-parfum",
+        "notes": ["apple", "sage", "ambergris", "cedarwood"],
+        "price": 140,
+        "events": ["daily", "office", "night out", "daily"],
+        "strength": "strong",
+        "adjectives": ["clean", "sharp", "modern", "fruity"],
+        "gender": "masculine",
+        "type": ["fresh", "fruity"]
+    },
+    {
+        "name": "Versace Dylan Blue",
+        "link": "https://www.versace.com/us/en-us/dylan-blue",
+        "notes": ["calabrian bergamot", "aquatic notes", "black pepper", "incense"],
+        "price": 95,
+        "events": ["daily", "night out"],
+        "strength": "strong",
+        "adjectives": ["bold", "fresh", "aquatic"],
+        "gender": "masculine",
+        "type": ["metallic"]
+    },
+    {
+        "name": "Bvlgari Aqva Pour Homme",
+        "link": "https://www.bulgari.com/en-us/aqva-pour-homme",
+        "notes": ["marine", "mandarin", "amber", "sage"],
+        "price": 90,
+        "events": ["warm weather", "daily"],
+        "strength": "light",
+        "adjectives": ["watery", "refreshing", "fresh"],
+        "gender": "masculine",
+        "type": ["fresh"]
+    },
+    {
+      "name": "Rasasi Its Essential",
+      "link": "https://www.amazon.com/RASASI-Its-Essential-Eau-Parfum/dp/B0C6KM3JLK",
+      "notes": ["orange", "bergamot", "pear", "geranium", "lavender", "jasmine", "magnolia", "cedar", "vanilla", "tobacco", "cinnamon"],
+      "price": 25,
+      "events": ["daily", "office", "daily"],
+      "strength": "moderate",
+      "adjectives": ["fresh", "earthy", "sophisticated", "captivating"],
+      "gender": "masculine", 
+      "type": ["earthy", "fresh", "woody", "sweet", "floral"]
+     },
+    {
+      "name": "Nautica Voyage",
+      "link": "https://www.nautica.com/nautica-voyage/NMS00890.html",
+      "notes": ["green leaves", "apple", "mimosa", "lotus", "cedarwood", "musk"],
+      "price": 20,
+      "events": ["warm weather", "daily", "daily"],
+      "strength": "strong",
+      "adjectives": ["fresh", "aquatic", "green"],
+      "gender": "masculine"
+    },
+    {
+      "name": "Jaguar Classic Black",
+      "link": "https://www.jaguar-fragrances.com/en/classic-black/",
+      "notes": ["mandarin", "green apple", "cardamom", "musk", "tonka bean", "sandalwood"],
+      "price": 25,
+      "events": ["warm weather", "daily", "office"],
+      "strength": "strong",
+      "adjectives": ["fresh", "spicy", "woody"],
+      "gender": "masculine"
+    },
+    [
+      {
+        "name": "Azzaro The Most Wanted",
+        "link": "https://www.azzaro.com/int/fragrances/the-most-wanted",
+        "notes": ["cardamom", "toffee", "amberwood"],
+        "price": 110,
+        "events": ["night out", "romantic", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["sweet", "spicy", "warm", "bold", "seductive"],
+        "gender": "masculine"
+      },
+      {
+        "name": "Azzaro The Most Wanted Intense",
+        "link": "https://www.azzaro.com/int/fragrances/the-most-wanted-intense",
+        "notes": ["cinnamon", "rum", "amberwood"],
+        "price": 115,
+        "events": ["night out", "special occasion", "romantic"],
+        "strength": "strong",
+        "adjectives": ["sweet", "boozy", "spicy", "warm", "seductive"],
+        "gender": "masculine"
+      },
+      {
+        "name": "Azzaro The Most Wanted Parfum",
+        "link": "https://www.azzaro.com/int/fragrances/the-most-wanted-parfum",
+        "notes": ["ginger", "woods", "bourbon vanilla"],
+        "price": 120,
+        "events": ["night out", "special occasion", "romantic"],
+        "strength": "strong",
+        "adjectives": ["sweet", "woody", "spicy", "gourmand", "bold"],
+        "gender": "masculine"
+      }
+    ],
+    
+    {
+      "name": "Perry Ellis 360 Red for Men",
+      "link": "https://perryellis.com/products/360-red-for-men-eau-de-toilette-spray",
+      "notes": ["lime", "cinnamon", "orange", "nutmeg", "patchouli", "musk"],
+      "price": 30,
+      "events": ["warm weather", "night out", "daily"],
+      "strength": "strong",
+      "adjectives": ["spicy", "fresh", "citrus"],
+      "gender": "masculine"
+    },
+    [
+      {
+        "name": "Valentino Uomo Born In Roma Coral Fantasy",
+        "link": "https://www.valentino.com/en-us/uomo-born-in-roma-coral-fantasy-eau-de-toilette-100ml",
+        "notes": ["red apple", "cardamom", "tobacco", "patchouli", "geranium"],
+        "price": 118,
+        "events": ["daily", "night out", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["fruity", "spicy", "warm", "youthful", "modern"],
+        "gender": "masculine"
+      },
+      [
+        {
+          "name": "Valentino Uomo",
+          "link": "https://www.valentino.com/en-us/uomo-eau-de-toilette-50ml",
+          "notes": ["hazelnut", "chocolate", "leather", "cedar", "bergamot"],
+          "price": 110,
+          "events": ["daily", "night out", "special occasion"],
+          "strength": "strong",
+          "adjectives": ["sweet", "woody", "gourmand", "powdery", "warm"],
+          "gender": "masculine"
+        },
+        {
+          "name": "Valentino Uomo Intense",
+          "link": "https://www.valentino.com/en-us/uomo-intense-eau-de-parfum-100ml",
+          "notes": ["iris", "vanilla", "tonka bean", "leather", "clary sage"],
+          "price": 125,
+          "events": ["night out", "romantic", "special occasion"],
+          "strength": "strong",
+          "adjectives": ["sweet", "powdery", "leathery", "dark", "bold"],
+          "gender": "masculine"
+        },
+        {
+          "name": "Valentino Uomo Born In Roma",
+          "link": "https://www.valentino.com/en-us/uomo-born-in-roma-eau-de-toilette-100ml",
+          "notes": ["mineral salt", "ginger", "vetiver", "sage", "woody accords"],
+          "price": 118,
+          "events": ["daily", "night out", "office"],
+          "strength": "strong",
+          "adjectives": ["fresh", "woody", "spicy", "bold", "modern"],
+          "gender": "masculine"
+        }
+      ],
+      
+      {
+        "name": "Valentino Uomo Born In Roma Yellow Dream",
+        "link": "https://www.valentino.com/en-us/uomo-born-in-roma-yellow-dream-eau-de-toilette-100ml",
+        "notes": ["pineapple", "mandarin", "vanilla", "cedarwood", "spices"],
+        "price": 118,
+        "events": ["daily", "night out", "romantic"],
+        "strength": "strong",
+        "adjectives": ["fruity", "sweet", "spicy", "warm", "youthful"],
+        "gender": "masculine"
+      }
+    ],
+    
+    {
+        "name": "Elizabeth Arden Green Tea",
+        "link": "https://www.elizabetharden.com/fragrance/green-tea",
+        "notes": ["green tea", "mint", "lemon", "jasmine"],
+        "price": 30,
+        "events": ["daily", "office", "warm weather"],
+        "strength": "light",
+        "adjectives": ["refreshing", "clean", "relaxing"],
+        "gender": "feminine",
+        "type": ["tea"]
+    },
+    {
+        "name": "Bvlgari Eau Parfumée au Thé Vert",
+        "link": "https://www.bulgari.com/en-us/eau-parfumee-au-the-vert",
+        "notes": ["green tea", "coriander", "jasmine", "lemon"],
+        "price": 90,
+        "events": ["daily", "office", "spring"],
+        "strength": "light",
+        "adjectives": ["calming", "fresh", "zen"],
+        "gender": "unisex",
+        "type": ["tea"]
+    },
+    
+      {
+        "name": "Roja Elysium Pour Homme Parfum Cologne",
+        "link": "https://rojaparfums.com/products/elysium-parfum-cologne",
+        "notes": ["boozy", "grapefruit", "musk"],
+        "price": 195,
+        "events": ["daily", "romantic"],
+        "strength": "strong",
+        "adjectives": ["fresh", "elegant", "vibrant"],
+        "gender": "masculine",
+        "type": ["citrus"]
+      }
+    ],
+    [
+      {
+        "name": "Viktor & Rolf Spicebomb Night Vision EDP",
+        "link": "https://www.sephora.com/product/spicebomb-night-vision-eau-de-parfum-P455904",
+        "notes": ["vanilla", "green apple", "cardamom"],
+        "price": 120,
+        "events": ["night out", "romantic"],
+        "strength": "light",
+        "adjectives": ["smooth", "sweet", "modern"],
+        "gender": "masculine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Giorgio Armani Acqua di Giò Profondo",
+        "link": "https://www.sephora.com/product/acqua-di-gio-profondo-eau-de-parfum-P454362",
+        "notes": ["citrus", "marine notes", "patchouli"],
+        "price": 135,
+        "events": ["daily", "office", "warm weather"],
+        "strength": "light",
+        "adjectives": ["fresh", "clean", "elegant"],
+        "gender": "masculine",
+        "type": ["aquatic", "daily"]
+      },
+      {
+        "name": "Initio Oud for Greatness",
+        "link": "https://www.sephora.com/product/initio-parfums-prives-oud-for-greatness-eau-de-parfum-P478674",
+        "notes": ["oud", "saffron", "nutmeg"],
+        "price": 199,
+        "events": ["special occasion", "night out"],
+        "strength": "light",
+        "adjectives": ["smooth", "luxurious", "exotic"],
+        "gender": "masculine",
+        "type": ["woody"]
+      },
+      {
+        "name": "Diptyque Eau Duelle EDP",
+        "link": "https://www.sephora.com/product/diptyque-eau-duelle-eau-de-parfum-P405651",
+        "notes": ["incense", "vanilla", "cardamom"],
+        "price": 175,
+        "events": ["romantic", "daily"],
+        "strength": "light",
+        "adjectives": ["warm", "soft", "smooth"],
+        "gender": "masculine",
+        "type": ["spicy"]
+      },
+      {
+        "name": "Memo Irish Leather",
+        "link": "https://www.memo.com/products/irish-leather",
+        "notes": ["leather", "juniper", "amber"],
+        "price": 195,
+        "events": ["special occasion", "night out"],
+        "strength": "light",
+        "adjectives": ["refined", "elegant", "bold"],
+        "gender": "masculine",
+        "type": ["leather"]
+      },
+      {
+        "name": "Bvlgari Man Wood Neroli",
+        "link": "https://www.bulgari.com/en-us/man-wood-neroli-eau-de-parfum-3607346355391",
+        "notes": ["tea", "neroli", "woodsy notes"],
+        "price": 110,
+        "events": ["daily", "office"],
+        "strength": "light",
+        "adjectives": ["clean", "fresh", "natural"],
+        "gender": "masculine",
+        "type": ["woody"]
+      },
+      {
+        "name": "Maison Margiela Replica By the Fireplace",
+        "link": "https://www.sephora.com/product/by-the-fireplace-eau-de-toilette-P404020",
+        "notes": ["amber", "chestnut", "smoke"],
+        "price": 144,
+        "events": ["night out", "cozy"],
+        "strength": "light",
+        "adjectives": ["warm", "sweet", "cozy"],
+        "gender": "masculine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Yves Saint Laurent Y Le Parfum",
+        "link": "https://www.sephora.com/product/yves-saint-laurent-y-le-parfum-P468018",
+        "notes": ["boozy", "apple", "sage"],
+        "price": 155,
+        "events": ["night out", "special occasion"],
+        "strength": "light",
+        "adjectives": ["bold", "fresh", "modern"],
+        "gender": "masculine",
+        "type": ["spicy"]
+      }
+    ],[
+      {
+        "name": "Parfums de Marly Layton Exclusif",
+        "link": "https://parfums-de-marly.com/products/layton-exclusif",
+        "notes": ["vanilla", "apple", "cardamom"],
+        "price": 320,
+        "events": ["romantic", "night out"],
+        "strength": "strong",
+        "adjectives": ["luxurious", "smooth", "sweet"],
+        "gender": "masculine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Roja Elysium Parfum",
+        "link": "https://rojaparfums.com/products/elysium-pour-homme-parfum",
+        "notes": ["citrus", "vetiver", "ambergris"],
+        "price": 315,
+        "events": ["daily", "office"],
+        "strength": "strong",
+        "adjectives": ["fresh", "elegant", "vibrant"],
+        "gender": "masculine",
+        "type": ["citrus"]
+      },
+      {
+        "name": "Fragrance du Bois Oud Noir Intense",
+        "link": "https://fragrancedubois.com/products/oud-noir-intense",
+        "notes": ["oud", "saffron", "amber"],
+        "price": 395,
+        "events": ["special occasion", "night out"],
+        "strength": "strong",
+        "adjectives": ["bold", "rich", "intense"],
+        "gender": "masculine",
+        "type": ["woody"]
+      },
+      
+      {
+        "name": "Xerjoff Naxos",
+        "link": "https://xerjoff.com/products/naxos",
+        "notes": ["leather", "honey", "tobacco"],
+        "price": 305,
+        "events": ["romantic", "night out"],
+        "strength": "strong",
+        "adjectives": ["sweet", "rich", "luxurious"],
+        "gender": "masculine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Boadicea The Victorious Blue Sapphire",
+        "link": "https://boadiceaperfume.com/products/blue-sapphire",
+        "notes": ["tea", "oud", "saffron"],
+        "price": 600,
+        "events": ["special occasion", "romantic"],
+        "strength": "strong",
+        "adjectives": ["opulent", "bold", "exotic"],
+        "gender": "masculine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Roja Enigma Pour Homme Parfum Cologne",
+        "link": "https://rojaparfums.com/products/enigma-parfum-cologne",
+        "notes": ["amber", "cognac", "vanilla"],
+        "price": 325,
+        "events": ["special occasion", "night out"],
+        "strength": "strong",
+        "adjectives": ["boozy", "rich", "smooth"],
+        "gender": "masculine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Initio Absolute Aphrodisiac",
+        "link": "https://www.initio-parfums.com/product/absolute-aphrodisiac/",
+        "notes": ["boozy", "vanilla", "amber"],
+        "price": 310,
+        "events": ["night out", "romantic"],
+        "strength": "strong",
+        "adjectives": ["seductive", "warm", "smooth"],
+        "gender": "masculine",
+        "type": ["gourmand"]
+      }
+    ],
+    [
+      {
+        "name": "Kilian Vodka on the Rocks",
+        "link": "https://www.bykilian.com/product/19789/38736/fragrances/fresh/vodka-on-the-rocks/by-kilian-vodka-on-the-rocks-eau-de-parfum",
+        "notes": ["vanilla", "coriander", "aldehydes"],
+        "price": 295,
+        "events": ["night out", "romantic"],
+        "strength": "light",
+        "adjectives": ["smooth", "fresh", "cool"],
+        "gender": "masculine",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Creed Aventus Cologne",
+        "link": "https://www.creedboutique.com/products/aventus-cologne",
+        "notes": ["citrus", "ginger", "mandarin"],
+        "price": 495,
+        "events": ["daily", "office", "warm weather"],
+        "strength": "light",
+        "adjectives": ["fresh", "bright", "clean"],
+        "gender": "masculine",
+        "type": ["citrus"]
+      },
+      {
+        "name": "Maison Francis Kurkdjian Oud Silk Mood",
+        "link": "https://www.franciskurkdjian.com/int-en/p/oud-silk-mood-extrait-de-parfum",
+        "notes": ["oud", "rose", "chamomile"],
+        "price": 310,
+        "events": ["special occasion", "night out"],
+        "strength": "light",
+        "adjectives": ["smooth", "refined", "luxurious"],
+        "gender": "masculine",
+        "type": ["warm"]
+      },
+      [
+        {
+          "name": "Mancera Velvet Vanilla",
+          "link": "https://www.amazon.com/Mancera-Velvet-Vanilla-Parfum-Spray/dp/B07B9KZFKW",
+          "notes": ["vanilla", "tuberose", "pear"],
+          "price": 95,
+          "events": ["romantic", "night out"],
+          "strength": "strong",
+          "adjectives": ["sweet", "luxurious", "playful"],
+          "gender": "unisex",
+          "type": ["gourmand"]
+        },
+        {
+          "name": "Montale Soleil de Capri",
+          "link": "https://www.amazon.com/Montale-Soleil-Capri-Eau-Perfume/dp/B07HHZJQGC",
+          "notes": ["citrus", "grapefruit", "white flowers"],
+          "price": 90,
+          "events": ["daily", "warm weather", "office"],
+          "strength": "strong",
+          "adjectives": ["fresh", "bright", "uplifting"],
+          "gender": "unisex",
+          "type": ["citrus"]
+        },
+        
+        {
+          "name": "Maison Alhambra The Tux",
+          "link": "https://www.amazon.com/Maison-Alhambra-Tux-Unisex-Parfum/dp/B0BZFZVKFZ",
+          "notes": ["incense", "patchouli", "rose"],
+          "price": 65,
+          "events": ["special occasion", "night out"],
+          "strength": "strong",
+          "adjectives": ["smoky", "elegant", "dark"],
+          "gender": "unisex",
+          "type": ["spicy"]
+        },
+        {
+          "name": "Mancera Red Tobacco",
+          "link": "https://www.amazon.com/Mancera-Red-Tobacco-Eau-Perfume/dp/B07DNWZXQM",
+          "notes": ["leather", "tobacco", "amber"],
+          "price": 100,
+          "events": ["night out", "special occasion"],
+          "strength": "strong",
+          "adjectives": ["intense", "bold", "rich"],
+          "gender": "unisex",
+          "type": ["warm"]
+        },
+        {
+          "name": "Perris Monte Carlo Tea Absolute",
+          "link": "https://www.perrismontecarlo.com/tea-absolute/",
+          "notes": ["tea", "bergamot", "musk"],
+          "price": 100,
+          "events": ["daily", "spring"],
+          "strength": "strong",
+          "adjectives": ["calm", "fresh", "refined"],
+          "gender": "unisex",
+          "type": ["green"]
+        },
+        {
+          "name": "Montale Amber Musk",
+          "link": "https://www.amazon.com/Montale-Amber-Musk-Eau-Perfume/dp/B00Q9NZ0OY",
+          "notes": ["amber", "musk", "sandalwood"],
+          "price": 90,
+          "events": ["romantic", "special occasion"],
+          "strength": "strong",
+          "adjectives": ["warm", "smooth", "elegant"],
+          "gender": "unisex",
+          "type": ["warm"]
+        },
+        {
+          "name": "Maison Alhambra Kismet Angel",
+          "link": "https://www.amazon.com/Maison-Alhambra-Kismet-Angel/dp/B0BM3GY13S",
+          "notes": ["boozy", "chocolate", "praline"],
+          "price": 85,
+          "events": ["night out", "romantic"],
+          "strength": "strong",
+          "adjectives": ["rich", "sweet", "decadent"],
+          "gender": "unisex",
+          "type": ["gourmand"]
+        }
+      ],
+      [
+        {
+          "name": "Philosophy Fresh Cream Warm Cashmere",
+          "link": "https://www.ulta.com/p/fresh-cream-warm-cashmere-eau-de-toilette-pimprod2023947",
+          "notes": ["vanilla", "cashmere", "coconut"],
+          "price": 55,
+          "events": ["daily", "daily"],
+          "strength": "light",
+          "adjectives": ["soft", "cozy", "sweet"],
+          "gender": "unisex",
+          "type": ["gourmand"]
+        },
+        {
+          "name": "Maison Alhambra Infini Oud",
+          "link": "https://www.amazon.com/Maison-Alhambra-Infini-Oud/dp/B0C4T5NDC8",
+          "notes": ["citrus", "lemon", "bergamot"],
+          "price": 60,
+          "events": ["daily", "warm weather"],
+          "strength": "light",
+          "adjectives": ["fresh", "clean", "bright"],
+          "gender": "unisex",
+          "type": ["citrus"]
+        },
+        
+        {
+          "name": "Demeter Frankincense",
+          "link": "https://demeterfragrance.com/products/frankincense",
+          "notes": ["incense"],
+          "price": 25,
+          "events": ["spiritual", "calming"],
+          "strength": "light",
+          "adjectives": ["soft", "meditative", "airy"],
+          "gender": "unisex",
+          "type": ["spicy"]
+        },
+        {
+          "name": "Maison Alhambra Leatherman",
+          "link": "https://www.amazon.com/Maison-Alhambra-Leatherman/dp/B0BM3D3RDN",
+          "notes": ["leather", "saffron", "amber"],
+          "price": 70,
+          "events": ["special occasion", "night out"],
+          "strength": "light",
+          "adjectives": ["smooth", "warm", "modern"],
+          "gender": "unisex",
+          "type": ["leather"]
+        },
+        {
+          "name": "Elizabeth Arden Green Tea Nectarine Blossom",
+          "link": "https://www.ulta.com/p/green-tea-nectarine-blossom-eau-de-toilette-pimprod2009130",
+          "notes": ["tea", "nectarine", "musk"],
+          "price": 60,
+          "events": ["daily", "spring"],
+          "strength": "light",
+          "adjectives": ["fresh", "clean", "airy"],
+          "gender": "unisex",
+          "type": ["green"]
+        },
+        {
+          "name": "Demeter Golden Amber",
+          "link": "https://demeterfragrance.com/products/amber",
+          "notes": ["amber"],
+          "price": 25,
+          "events": ["daily", "romantic"],
+          "strength": "light",
+          "adjectives": ["warm", "soft", "cozy"],
+          "gender": "unisex",
+          "type": ["warm"]
+        }
+        
+      ],
+      [
+        {
+          "name": "Tom Ford Tobacco Vanille",
+          "link": "https://www.sephora.com/product/tobacco-vanille-eau-de-parfum-P395407",
+          "notes": ["vanilla", "tobacco", "cocoa"],
+          "price": 180,
+          "events": ["night out", "special occasion"],
+          "strength": "strong",
+          "adjectives": ["warm", "rich", "intense"],
+          "gender": "unisex",
+          "type": ["gourmand"]
+        },
+        {
+          "name": "Byredo Sundazed",
+          "link": "https://www.sephora.com/product/sundazed-eau-de-parfum-P448274",
+          "notes": ["citrus", "mandarin", "neroli"],
+          "price": 190,
+          "events": ["daily", "warm weather"],
+          "strength": "strong",
+          "adjectives": ["bright", "uplifting", "clean"],
+          "gender": "unisex",
+          "type": ["citrus"]
+        },
+       
+        {
+          "name": "Diptyque Eau Lente",
+          "link": "https://www.diptyqueparis.com/en_us/p/eau-lente-eau-de-toilette.html",
+          "notes": ["incense", "spices", "resins"],
+          "price": 135,
+          "events": ["night out", "special occasion"],
+          "strength": "strong",
+          "adjectives": ["spicy", "deep", "mysterious"],
+          "gender": "unisex",
+          "type": ["spicy"]
+        },
+        
+        {
+          "name": "Maison Margiela Matcha Meditation",
+          "link": "https://www.sephora.com/product/replica-matcha-meditation-P470504",
+          "notes": ["tea", "white chocolate", "bergamot"],
+          "price": 144,
+          "events": ["daily", "relaxing"],
+          "strength": "strong",
+          "adjectives": ["calm", "airy", "fresh"],
+          "gender": "unisex",
+          "type": ["green"]
+        },
+        {
+          "name": "Byredo Eleventh Hour",
+          "link": "https://www.sephora.com/product/eleventh-hour-eau-de-parfum-P436491",
+          "notes": ["amber", "fig", "pepper"],
+          "price": 190,
+          "events": ["night out", "romantic"],
+          "strength": "strong",
+          "adjectives": ["warm", "modern", "mysterious"],
+          "gender": "unisex",
+          "type": ["warm"]
+        },
+        {
+          "name": "Kilian Angels Share",
+          "link": "https://www.sephora.com/product/angel-s-share-eau-de-parfum-P469805",
+          "notes": ["boozy", "cognac", "tonka bean"],
+          "price": 215,
+          "events": ["night out", "special occasion"],
+          "strength": "strong",
+          "adjectives": ["sweet", "boozy", "luxurious"],
+          "gender": "unisex",
+          "type": ["gourmand", "sweet"]
+        }
+      ],
+      [
+        
+        {
+          "name": "Maison Margiela Replica Under the Lemon Trees",
+          "link": "https://www.sephora.com/product/under-the-lemon-trees-P439535",
+          "notes": ["citrus", "lemon", "green notes"],
+          "price": 144,
+          "events": ["daily", "spring", "office"],
+          "strength": "light",
+          "adjectives": ["fresh", "bright", "relaxing"],
+          "gender": "unisex",
+          "type": ["citrus"]
+        },
+        {
+          "name": "Initio Oud for Happiness",
+          "link": "https://www.sephora.com/product/oud-for-happiness-eau-de-parfum-P478675",
+          "notes": ["oud", "ginger", "vanilla"],
+          "price": 190,
+          "events": ["daily", "exclusive"],
+          "strength": "light",
+          "adjectives": ["smooth", "refined", "luxurious"],
+          "gender": "unisex",
+          "type": ["woody"]
+        },
+        {
+          "name": "Diptyque Tempo",
+          "link": "https://www.sephora.com/product/tempo-eau-de-parfum-P431032",
+          "notes": ["incense", "patchouli", "mate"],
+          "price": 175,
+          "events": ["daily", "calming"],
+          "strength": "light",
+          "adjectives": ["earthy", "soft", "meditative"],
+          "gender": "unisex",
+          "type": ["spicy"]
+        },
+        {
+          "name": "Tom Ford Ombre Leather",
+          "link": "https://www.sephora.com/product/ombre-leather-eau-de-parfum-P432020",
+          "notes": ["leather", "cardamom", "jasmine"],
+          "price": 155,
+          "events": ["night out", "romantic"],
+          "strength": "light",
+          "adjectives": ["smooth", "refined", "elegant"],
+          "gender": "unisex",
+          "type": ["leather"]
+        },
+        {
+          "name": "Maison Crivelli Thé Encens",
+          "link": "https://www.maisoncrivelli.com/en/product/the-encens/",
+          "notes": ["tea", "incense", "cedarwood"],
+          "price": 180,
+          "events": ["daily", "office"],
+          "strength": "light",
+          "adjectives": ["fresh", "smooth", "clean"],
+          "gender": "unisex",
+          "type": ["green"]
+        },
+        {
+          "name": "Laboratorio Olfattivo Alambar",
+          "link": "https://laboratorioolfattivo.com/en/products/alambar",
+          "notes": ["amber", "vanilla", "cocoa"],
+          "price": 140,
+          "events": ["romantic", "night out"],
+          "strength": "light",
+          "adjectives": ["warm", "sweet", "cozy"],
+          "gender": "unisex",
+          "type": ["warm"]
+        },
+        {
+          "name": "Kilian Roses On Ice",
+          "link": "https://www.sephora.com/product/roses-on-ice-eau-de-parfum-P469806",
+          "notes": ["boozy", "cucumber", "juniper berries"],
+          "price": 195,
+          "events": ["special occasion", "night out"],
+          "strength": "light",
+          "adjectives": ["fresh", "boozy", "unique"],
+          "gender": "unisex",
+          "type": ["gourmand"]
+        }
+      ],
+      [
+        {
+          "name": "Xerjoff Lira",
+          "link": "https://xerjoff.com/products/lira",
+          "notes": ["vanilla", "caramel", "blood orange"],
+          "price": 305,
+          "events": ["night out", "romantic"],
+          "strength": "strong",
+          "adjectives": ["sweet", "rich", "gourmand"],
+          "gender": "unisex",
+          "type": ["gourmand"]
+        },
+        {
+          "name": "Creed Virgin Island Water",
+          "link": "https://www.creedboutique.com/products/virgin-island-water",
+          "notes": ["citrus", "coconut", "lime"],
+          "price": 445,
+          "events": ["daily", "warm weather"],
+          "strength": "strong",
+          "adjectives": ["tropical", "bright", "uplifting"],
+          "gender": "unisex",
+          "type": ["citrus"]
+        },
+        {
+          "name": "Fragrance du Bois Oud Orange Intense",
+          "link": "https://fragrancedubois.com/products/oud-orange-intense",
+          "notes": ["oud", "orange", "praline"],
+          "price": 395,
+          "events": ["night out", "special occasion"],
+          "strength": "strong",
+          "adjectives": ["bold", "rich", "exotic"],
+          "gender": "unisex",
+          "type": ["warm"]
+        },
+        {
+          "name": "Amouage Epic 56 Extrait",
+          "link": "https://amouage.com/products/epic-56-extrait",
+          "notes": ["incense", "pink pepper", "rose"],
+          "price": 495,
+          "events": ["night out", "exclusive event"],
+          "strength": "strong",
+          "adjectives": ["bold", "opulent", "mysterious"],
+          "gender": "unisex",
+          "type": ["spicy"]
+        },
+        {
+          "name": "Roja Dove Enigma Parfum",
+          "link": "https://rojaparfums.com/products/enigma-pour-homme-parfum",
+          "notes": ["leather", "cognac", "amber"],
+          "price": 495,
+          "events": ["exclusive event", "night out"],
+          "strength": "strong",
+          "adjectives": ["rich", "smooth", "boozy"],
+          "gender": "unisex",
+          "type": ["warm"]
+        },
+        {
+          "name": "Boadicea The Victorious Ardent",
+          "link": "https://boadiceaperfume.com/products/ardent",
+          "notes": ["tea", "rose", "oud"],
+          "price": 465,
+          "events": ["romantic", "exclusive event"],
+          "strength": "strong",
+          "adjectives": ["refined", "rich", "smooth"],
+          "gender": "unisex",
+          "type": ["warm"]
+        },
+        {
+          "name": "Parfums de Marly Oajan",
+          "link": "https://parfums-de-marly.com/products/oajan",
+          "notes": ["amber", "honey", "cinnamon"],
+          "price": 320,
+          "events": ["special occasion", "night out"],
+          "strength": "strong",
+          "adjectives": ["warm", "sweet", "luxurious"],
+          "gender": "unisex",
+          "type": ["warm"]
+        },
+        {
+          "name": "Kilian Black Phantom Memento Mori",
+          "link": "https://www.sephora.com/product/black-phantom-eau-de-parfum-P417134",
+          "notes": ["boozy", "coffee", "rum"],
+          "price": 295,
+          "events": ["romantic", "night out"],
+          "strength": "strong",
+          "adjectives": ["decadent", "rich", "gourmand"],
+          "gender": "unisex",
+          "type": ["gourmand"]
+        }
+      ],
+      [
+        
+        {
+          "name": "Creed Pure White Cologne",
+          "link": "https://www.creedboutique.com/products/pure-white-cologne",
+          "notes": ["citrus", "lemon", "bergamot"],
+          "price": 495,
+          "events": ["daily", "formal", "warm weather"],
+          "strength": "light",
+          "adjectives": ["fresh", "clean", "bright"],
+          "gender": "unisex",
+          "type": ["citrus"]
+        },
+        {
+          "name": "Fragrance du Bois Oud Bleu Intense",
+          "link": "https://fragrancedubois.com/products/oud-bleu-intense",
+          "notes": ["oud", "cardamom", "nutmeg"],
+          "price": 395,
+          "events": ["special occasion", "night out"],
+          "strength": "light",
+          "adjectives": ["smooth", "luxurious", "refined"],
+          "gender": "unisex",
+          "type": ["woody"]
+        },
+        {
+          "name": "Roja Dove Amber Aoud Parfum",
+          "link": "https://rojaparfums.com/products/amber-aoud",
+          "notes": ["incense", "ambergris", "rose"],
+          "price": 525,
+          "events": ["night out", "exclusive"],
+          "strength": "light",
+          "adjectives": ["opulent", "smooth", "warm"],
+          "gender": "unisex",
+          "type": ["warm"]
+        },
+        {
+          "name": "Clive Christian X Unisex",
+          "link": "https://clivechristian.com/products/x-unisex",
+          "notes": ["leather", "orris", "cardamom"],
+          "price": 575,
+          "events": ["formal", "exclusive event"],
+          "strength": "light",
+          "adjectives": ["smooth", "luxurious", "refined"],
+          "gender": "unisex",
+          "type": ["leather"]
+        },
+        {
+          "name": "Amouage Meander",
+          "link": "https://amouage.com/products/meander",
+          "notes": ["tea", "carrot seed", "incense"],
+          "price": 360,
+          "events": ["daily", "office"],
+          "strength": "light",
+          "adjectives": ["fresh", "calm", "smooth"],
+          "gender": "unisex",
+          "type": ["green"]
+        },
+        {
+          "name": "Maison Francis Kurkdjian Baccarat Rouge 540 Extrait",
+          "link": "https://www.franciskurkdjian.com/int-en/p/baccarat-rouge-540-extrait-de-parfum",
+          "notes": ["amber", "saffron", "cedarwood"],
+          "price": 465,
+          "events": ["romantic", "night out", "cold weather", "warm weather"],
+          "strength": "strong",
+          "adjectives": ["warm", "luxurious", "smooth", "sweet"],
+          "gender": "unisex",
+          "type": ["warm", "sweet"]
+        },
+        {
+          "name": "Kilian Apple Brandy on the Rocks",
+          "link": "https://www.sephora.com/product/apple-brandy-on-the-rocks-eau-de-parfum-P469807",
+          "notes": ["boozy", "apple", "rum"],
+          "price": 295,
+          "events": ["exclusive event", "night out"],
+          "strength": "light",
+          "adjectives": ["sweet", "boozy", "modern"],
+          "gender": "unisex",
+          "type": ["gourmand"]
+        }
+      ],
+      
+      
+      
+      
+      
+      
+      {
+        "name": "Tom Ford Tuscan Leather",
+        "link": "https://www.tomford.com/fragrance/tuscan-leather/",
+        "notes": ["leather", "raspberry", "thyme"],
+        "price": 295,
+        "events": ["night out", "special occasion"],
+        "strength": "light",
+        "adjectives": ["rich", "smooth", "dark"],
+        "gender": "masculine",
+        "type": ["leather"]
+      },
+      {
+        "name": "Memo Paris Irish Leather",
+        "link": "https://us.memoparis.com/products/irish-leather",
+        "notes": ["tea", "juniper", "amber"],
+        "price": 310,
+        "events": ["daily", "exclusive"],
+        "strength": "light",
+        "adjectives": ["clean", "green", "refined"],
+        "gender": "masculine",
+        "type": ["green"]
+      },
+      {
+        "name": "Maison Crivelli Amber Kiso",
+        "link": "https://www.maisoncrivelli.com/en/product/amber-kiso/",
+        "notes": ["amber", "incense", "leather"],
+        "price": 295,
+        "events": ["special occasion", "night out"],
+        "strength": "light",
+        "adjectives": ["warm", "elegant", "balanced"],
+        "gender": "masculine",
+        "type": ["warm"]
+      },
+      {
+        "name": "Xerjoff Alexandria II",
+        "link": "https://xerjoff.com/products/alexandria-ii",
+        "notes": ["boozy", "oud", "rosewood"],
+        "price": 550,
+        "events": ["exclusive", "night out"],
+        "strength": "light",
+        "adjectives": ["rich", "luxurious", "smooth"],
+        "gender": "masculine",
+        "type": ["warm"]
+      }
+    ],
+    [
+      {
+        "name": "Al Rehab Choco Musk",
+        "link": "https://www.amazon.com/Al-Rehab-Choco-Musk-Perfume/dp/B001Q1Z0JI",
+        "notes": ["vanilla", "chocolate", "spice"],
+        "price": 15,
+        "events": ["daily", "romantic"],
+        "strength": "strong",
+        "adjectives": ["sweet", "warm", "playful"],
+        "gender": "unisex",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Demeter Lemon Meringue",
+        "link": "https://demeterfragrance.com/collections/fragrance/products/lemon-meringue",
+        "notes": ["citrus", "lemon", "sugar"],
+        "price": 25,
+        "events": ["daily", "spring", "daily"],
+        "strength": "strong",
+        "adjectives": ["bright", "sweet", "fresh"],
+        "gender": "unisex",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Lattafa Oud Mood",
+        "link": "https://www.amazon.com/Lattafa-Oud-Mood-Eau-Parfum/dp/B09MYTCY9F",
+        "notes": ["oud", "rose", "amber"],
+        "price": 35,
+        "events": ["romantic", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["rich", "bold", "smooth"],
+        "gender": "unisex",
+        "type": ["warm"]
+      },
+      {
+        "name": "Ard Al Zaafaran Dirham Oud",
+        "link": "https://www.amazon.com/Ard-Zaafaran-Dirham-Oud-Toilette/dp/B07ZJD3L48",
+        "notes": ["incense", "rose", "amber"],
+        "price": 30,
+        "events": ["night out", "romantic"],
+        "strength": "strong",
+        "adjectives": ["warm", "spicy", "smooth"],
+        "gender": "unisex",
+        "type": ["spicy"]
+      },
+      {
+        "name": "Ard Al Zaafaran Dirham Wardi",
+        "link": "https://www.amazon.com/Ard-Zaafaran-Dirham-Wardi-Toilette/dp/B08YQDCLDC",
+        "notes": ["leather", "rose", "vanilla"],
+        "price": 35,
+        "events": ["night out", "special occasion"],
+        "strength": "strong",
+        "adjectives": ["elegant", "smooth", "warm"],
+        "gender": "unisex",
+        "type": ["floral"]
+      },
+      {
+        "name": "Al Haramain Amber Oud Rouge",
+        "link": "https://www.amazon.com/Al-Haramain-Amber-Oud-Rouge/dp/B08P2K2LPC",
+        "notes": ["tea", "amber", "jasmine"],
+        "price": 50,
+        "events": ["romantic", "daily"],
+        "strength": "strong",
+        "adjectives": ["sweet", "rich", "airy"],
+        "gender": "unisex",
+        "type": ["warm"]
+      },
+      {
+        "name": "Rasasi Rumz Al Rasasi Zebra",
+        "link": "https://www.amazon.com/Rasasi-Rumz-Rasasi-Zebra-Toilette/dp/B00GX2UAP6",
+        "notes": ["amber", "pear", "leather"],
+        "price": 50,
+        "events": ["romantic", "night out"],
+        "strength": "strong",
+        "adjectives": ["fruity", "warm", "modern"],
+        "gender": "unisex",
+        "type": ["warm"]
+      }
+      
+    ],[
+      {
+        "name": "Demeter Vanilla Cake Batter",
+        "link": "https://demeterfragrance.com/collections/fragrance/products/vanilla-cake-batter",
+        "notes": ["vanilla", "sugar"],
+        "price": 25,
+        "events": ["daily", "daily", "school"],
+        "strength": "light",
+        "adjectives": ["sweet", "playful", "comforting"],
+        "gender": "unisex",
+        "type": ["gourmand"]
+      },
+      {
+        "name": "Demeter Meyer Lemon",
+        "link": "https://demeterfragrance.com/collections/fragrance/products/meyer-lemon",
+        "notes": ["citrus", "lemon"],
+        "price": 25,
+        "events": ["daily", "warm weather", "daily"],
+        "strength": "light",
+        "adjectives": ["bright", "fresh", "clean"],
+        "gender": "unisex",
+        "type": ["citrus"]
+      },
+      {
+        "name": "Al Rehab Oud",
+        "link": "https://www.amazon.com/Al-Rehab-Oud-Perfume/dp/B0041O1UUI",
+        "notes": ["oud", "woody"],
+        "price": 18,
+        "events": ["daily", "daily"],
+        "strength": "light",
+        "adjectives": ["woody", "smooth", "airy"],
+        "gender": "unisex",
+        "type": ["woody"]
+      },
+      
+      {
+        "name": "Al Rehab Leather",
+        "link": "https://www.amazon.com/Al-Rehab-Leather-Perfume/dp/B00J0JBNFY",
+        "notes": ["leather", "musk"],
+        "price": 20,
+        "events": ["daily", "night out"],
+        "strength": "light",
+        "adjectives": ["smooth", "soft", "refined"],
+        "gender": "unisex",
+        "type": ["leather"]
+      },
+      
+      {
+        "name": "Demeter Amber",
+        "link": "https://demeterfragrance.com/collections/fragrance/products/amber",
+        "notes": ["amber"],
+        "price": 25,
+        "events": ["daily", "daily", "romantic"],
+        "strength": "light",
+        "adjectives": ["warm", "soft", "elegant"],
+        "gender": "unisex",
+        "type": ["warm"]
+      }
+      
+    ],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 {
     "name": "Argos Birth of Venus",
     "link": "https://argosfragrances.com",
@@ -5485,6 +8523,29 @@
     "woody"
     ]
     },
+    {
+      "name": "Acqua di Parma Fico di Amalfi",
+      "link": "https://www.acquadiparma.com/us/en/p/fig-of-amalfi-eau-de-toilette-ADP001.html",
+      "gender": "unisex",
+      "price": 195,
+      "events": ["daily", "warm weather"],
+      "strength": "light",
+      "notes": ["fig nectar", "grapefruit", "cedarwood"],
+      "adjectives": ["fresh", "bright", "fruity"],
+      "type": ["fruity"]
+    },{
+      "name": "Diptyque Eau des Sens",
+      "link": "https://www.diptyqueparis.com/en_us/p/eau-des-sens-eau-de-toilette.html",
+      "gender": "unisex",
+      "price": 175,
+      "events": ["daily", "office"],
+      "strength": "light",
+      "notes": ["orange blossom", "bitter orange", "juniper berries", "angelica"],
+      "adjectives": ["airy", "clean", "fresh"],
+      "type": ["fruity"]
+    },
+    
+    
 {
     "name": "Born to Stand Out Dirty Rice",
     "link": "https://born-to-stand-out.com",
@@ -5525,7 +8586,7 @@
     ],
     "type": [
     "sweet",
-    "gourmand"
+    "gourmand", "airy"
     ]
     },
 {
@@ -6150,7 +9211,7 @@
       ]
     },
 {
-      "name": "Blue Talisman",
+      "name": "Ex Nihilo Blue Talisman",
       "link": "https://blue-talisman.com",
       "gender": "unisex",
       "price": 210,
@@ -6169,7 +9230,7 @@
       "type": [
         "fresh",
         "musky",
-        "woody"
+        "woody", "fruity"
       ]
     },
 {
@@ -6196,6 +9257,51 @@
         "musky"
       ]
     },
+    {
+      "name": "Parfums de Marly Meliora",
+      "link": "https://www.parfums-de-marly.com/en/meliora",
+      "gender": "unisex",
+      "price": 190,
+      "events": ["special occasion"],
+      "strength": "light",
+      "notes": ["blackcurrant", "red berries", "rose", "vanilla", "musk"],
+      "adjectives": ["elegant", "fruity", "airy"],
+      "type": ["fruity"]
+    },
+    {
+      "name": "Maison Francis Kurkdjian Aqua Celestia",
+      "link": "https://www.franciskurkdjian.com/aqua-celestia-eau-de-toilette.html",
+      "gender": "unisex",
+      "price": 195,
+      "events": ["special occasion", "daily"],
+      "strength": "light",
+      "notes": ["blackcurrant", "lime", "mint", "musk"],
+      "adjectives": ["airy", "fruity", "clean"],
+      "type": ["fruity"]
+    },
+    {
+      "name": "Jo Malone Nectarine Blossom & Honey",
+      "link": "https://www.jomalone.com/product/25954/10862/colognes/nectarine-blossom-honey-cologne",
+      "gender": "unisex",
+      "price": 150,
+      "events": ["special occasion", "daily"],
+      "strength": "light",
+      "notes": ["nectarine", "peach", "blackcurrant", "honey"],
+      "adjectives": ["sweet", "fruity", "clean"],
+      "type": ["fruity"]
+    },
+    {
+      "name": "Etat Libre d'Orange You Or Someone Like You",
+      "link": "https://etatlibredorange.com/products/you-or-someone-like-you",
+      "gender": "unisex",
+      "price": 140,
+      "events": ["special occasion", "daily"],
+      "strength": "light",
+      "notes": ["mint", "grapefruit", "blackcurrant", "rose"],
+      "adjectives": ["fresh", "airy", "fruity"],
+      "type": ["fruity"]
+    },
+    
     
 {
       "name": "Kajal Lamar",
@@ -6253,17 +9359,7 @@
     "adjectives": ["clean", "airy"],
     "type": ["fresh"]
   },
-  {
-    "name": "Jo Malone English Pear & Freesia",
-    "link": "https://www.jomalone.com",
-    "gender": "unisex",
-    "price": 142,
-    "events": ["daily", "office"],
-    "strength": "light",
-    "notes": ["pear", "peony"],
-    "adjectives": ["fresh", "elegant"],
-    "type": ["fresh"]
-  },
+
   {
     "name": "Molecule 01",
     "link": "https://www.escentric-molecules.com/molecule-01",
@@ -6297,17 +9393,7 @@
     "adjectives": ["clean", "fresh"],
     "type": ["fresh"]
   },
-  {
-    "name": "Tom Ford Neroli Portofino",
-    "link": "https://www.tomford.com/beauty/fragrance/neroli-portofino/",
-    "gender": "masculine",
-    "price": 300,
-    "events": ["daily", "office"],
-    "strength": "light",
-    "notes": ["citrus", "neroli"],
-    "adjectives": ["clean", "elegant"],
-    "type": ["fresh"]
-  },
+ 
   {
     "name": "Phlur Solar Power",
     "link": "https://phlur.com/products/solar-power-50ml",
@@ -6319,17 +9405,7 @@
     "adjectives": ["fresh", "airy"],
     "type": ["fresh"]
   },
-  {
-    "name": "Versace Pour Homme",
-    "link": "https://www.versace.com/us/en-us/versace-pour-homme-eau-de-toilette-100-ml-8011003995961.html",
-    "gender": "masculine",
-    "price": 90,
-    "events": ["daily", "summer"],
-    "strength": "light",
-    "notes": ["lemon", "neroli"],
-    "adjectives": ["fresh", "crisp"],
-    "type": ["fresh"]
-  },
+  
 {
       "name": "Prada L'Homme Intense",
       "link": "https://prada.com",
